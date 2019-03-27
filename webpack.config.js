@@ -1,9 +1,23 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+
+const getFaviconUrl = (size) => {
+    return ``
+  }
+
 module.exports = {
     entry: "./src/index.tsx",
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist"
     },
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Xences',
+        getFaviconUrl,
+      })
+    ],
 
     // Enable sourcemaps for debugging webpack's output.
     devtool: "source-map",
