@@ -4,20 +4,76 @@
   "description": "React frontend app for a fashion web app.",
   "main": "index.js",
   "scripts": {
-    "start": "",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start:dev": "webpack-dev-server --config webpack.config.js --mode development",
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development",
+    "lint:scss": "stylelint --fix",
+    "test:unit": "jest -u --runInBand",
+    "test:commit": "yarn test:unit --coverage",
+    "lint:ts": "tslint --project tsconfig.json --config tslint.json"
   },
   "author": "Samuel Fakunle",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faksam/xences-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andela/xences-react/issues"
+  },
+  "homepage": "https://github.com/andela/xences-react#readme",
   "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/jest": "^24.0.11",
     "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.5",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
     "source-map-loader": "^0.2.4",
-    "typescript": "^3.3.3333",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.14.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-jsdoc-rules": "^0.2.0",
+    "typescript": "^2.9.2",
     "webpack": "^4.29.6",
-    "webpack-cli": "^3.2.3"
+    "webpack-cli": "^3.3.0"
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^7.5.0",
+    "@types/enzyme": "^3.9.1",
+    "@types/file-saver": "^2.0.0",
     "@types/react": "^16.8.7",
-    "@types/react-dom": "^16.8.2"
+    "@types/react-dom": "^16.8.2",
+    "axios": "^0.18.0",
+    "commitlint": "^7.5.2",
+    "enzyme-to-json": "^3.3.5",
+    "express": "^4.16.4",
+    "file-saver": "^2.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^24.5.0",
+    "jest-localstorage-mock": "^2.4.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-thunk": "^2.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "lint-staged": {
+    "*.ts": "yarn lint:ts",
+    "*.tsx": "yarn lint:ts",
+    "*.scss": "yarn lint:scss"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && yarn test:commit",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
