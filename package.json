@@ -23,9 +23,6 @@
     "url": "https://github.com/andela/xences-react/issues"
   },
   "homepage": "https://github.com/andela/xences-react#readme",
-  "engines": {
-    "node": "^8.11.3"
-  },
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
