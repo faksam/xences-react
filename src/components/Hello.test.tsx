@@ -10,7 +10,7 @@ import { Hello } from './Hello';
 describe('Hello component', () => {
   const props = {
     compiler: '',
-    framework: ''
+    framework: '',
   };
 
   it('should be rendered properly', () => {
