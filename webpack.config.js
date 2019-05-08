@@ -1,9 +1,12 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const StyleLintPlugin = require('stylelint-webpack-plugin');
 
 const getFaviconUrl = (size) => {
     return ``
-  }
+}
+
+const isDevMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
     entry: "./src/index.tsx",
@@ -12,11 +15,19 @@ module.exports = {
         path: __dirname + "/dist"
     },
     plugins: [
-      new HtmlWebpackPlugin({
-        template: './index.html',
-        title: 'Xences',
-        getFaviconUrl,
-      })
+        new HtmlWebpackPlugin({
+            template: './src/index.html',
+            title: 'Xences',
+            getFaviconUrl,
+        }),
+        new MiniCssExtractPlugin(),
+        new StyleLintPlugin({
+            configFile: '.stylelintrc.json',
+            context: 'src',
+            files: '**/*.scss',
+            failOnError: false,
+            quiet: false,
+          }),
     ],
 
     // Enable sourcemaps for debugging webpack's output.
@@ -33,7 +44,27 @@ module.exports = {
             { test: /\.tsx?$/, loader: "awesome-typescript-loader" },
 
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+            { enforce: "pre", test: /\.js$/, loader: "source-map-loader" },
+
+            // All files '.sass|css'
+            {
+                test: /\.(scss|css)$/,
+                use: [
+                    isDevMode ? 'style-loader' : MiniCssExtractPlugin.loader,
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    },
+                    {
+                        loader: 'sass-loader',
+                        options: {
+                            sourceMap: true
+                        }
+                    }
+                ],
+            },
         ]
     },
 

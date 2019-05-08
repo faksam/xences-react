@@ -4,7 +4,10 @@
     "tslint-eslint-rules",
     "tslint-config-airbnb"
   ],
-  "jsRules": {},
+  "allowJs": true,
+  "jsRules": {
+      "no-empty": true
+  },
   "rules": {
     "import-name": false,
     "quotemark": [
@@ -62,7 +65,6 @@
       "timeEnd",
       "trace"
     ],
-    "no-unused-variable": true,
     "no-consecutive-blank-lines": true,
     "no-construct": true,
     "no-debugger": true,
