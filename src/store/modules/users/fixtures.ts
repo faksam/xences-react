@@ -1,5 +1,5 @@
 // fixtures
-import { userRoles } from '../userRoles/fixtures';
+import { userRoles } from '../../modules/userRoles/fixtures';
 
 export const users = [
   {

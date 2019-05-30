@@ -1,5 +1,5 @@
 // fixtures
-import { users } from '../users/fixtures';
+import { users } from '../../modules/users/fixtures';
 
 export const shops = [
   {
