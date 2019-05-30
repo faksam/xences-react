@@ -1,0 +1,71 @@
+.dropdown-button-shop {
+  width: 10rem;
+  border-radius: 25rem;
+}
+
+nav {
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.nav-content {
+  padding: 2rem;
+  clear: both;
+
+  form {
+    width: 30rem;
+    padding-right: 2rem;
+    float: left;
+  }
+
+  ul li {
+    color: #2196F3;
+  }
+}
+
+nav a {
+  color: #2196F3;
+}
+
+.brand-logo {
+  background-position: top left;
+  padding: 15 10 0 15;
+  float: left;
+
+  img {
+    width: 10rem;
+    height: 5rem;
+    padding-left: 2rem;
+  }
+}
+
+.nav-wrapper {
+  float: right;
+}
+
+.cart-btn { 
+  overflow: visible;
+
+  .badge {
+    position: relative;
+    top: -3.5rem;
+    left: 1rem;
+    min-width: auto;
+    border-radius: 50%;
+    color: #FFF;
+  }
+}
+
+.dropdown-button-account {
+  width: 7rem;
+  height: auto;
+}
+
+.dropdown-button-account:hover {
+  background-color: rgba(202, 214, 224, 0.521);
+}
+
+.upper-nav {
+  clear: right;
+}

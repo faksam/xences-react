@@ -1,14 +1,9 @@
-// interfaces
-import { Product } from 'modules/products/interfaces';
-
-export interface ButtonProps {
+export interface NavBarProps {
   size?: string;
   type?: string;
   icon?: string;
   name: string;
   disabled?: boolean;
-  onClick?: any;
-  submit?: boolean;
   id?: string;
   isActive?: boolean;
   classes?: string;
