@@ -1,5 +1,6 @@
 // import libraries
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 // third-party libraries
 
@@ -7,7 +8,7 @@ import * as React from 'react';
 import './NavigationBar.scss';
 
 // components
-import { Button, Dropdown, Navbar, NavItem, Row, SearchForm } from 'react-materialize';
+import { Button, Dropdown, Navbar, Row, SearchForm } from 'react-materialize';
 
 // interfaces
 
@@ -20,14 +21,14 @@ const NavigationBar = () => {
   return (
     <Row>
       <div className="nav-extended">
-        <NavItem className="brand-logo" href="/">
+        <Link to="/" className="brand-logo">
           <img src="https://res.cloudinary.com/faksam-soft/image/upload/v1559033087/logo_kq63d7.png" />
-        </NavItem>
+        </Link>
         <Navbar brand={<a href="" />}>
-          <NavItem className="btn-flat blue-text">Home</NavItem>
-          <NavItem className="btn-flat blue-text">New Arrivals</NavItem>
-          <NavItem className="btn-flat blue-text">Trending</NavItem>
-          <NavItem className="btn-flat blue-text">Top Search</NavItem>
+          <Link to="/" className="btn-flat blue-text">Home</Link>
+          <Link to="/new" className="btn-flat blue-text">New Arrivals</Link>
+          <Link to="/trending" className="btn-flat blue-text">Trending</Link>
+          <Link to="/top-search" className="btn-flat blue-text">Top Search</Link>
           <Dropdown
             trigger={
               <Button className="dropdown-button-account btn-flat blue-text">
@@ -36,7 +37,7 @@ const NavigationBar = () => {
             }>
             {
               categories.map(category => (
-                <NavItem key={category.id} href={`/men/${category.name.toLowerCase()}`} >{category.name}</NavItem>
+                <Link to={`/men/${category.name.toLowerCase()}`} key={category.id} >{category.name}</Link>
               ))
             }
           </Dropdown>
@@ -51,7 +52,7 @@ const NavigationBar = () => {
               >
                 {
                   categories.map(category => (
-                    <NavItem key={category.id} href={`/women/${category.name.toLowerCase()}`} >{category.name}</NavItem>
+                    <Link to={`/women/${category.name.toLowerCase()}`} key={category.id} >{category.name}</Link>
                   ))
                 }
               </Dropdown>&nbsp;&nbsp;
@@ -61,17 +62,17 @@ const NavigationBar = () => {
                 }>
                 {
                   categories.map(category => (
-                    <NavItem key={category.id} href={`/men/${category.name.toLowerCase()}`} >{category.name}</NavItem>
+                    <Link to={`/men/${category.name.toLowerCase()}`} key={category.id} >{category.name}</Link>
                   ))
                 }
               </Dropdown>&nbsp;&nbsp;
           </div>
             <div className="right">
               <SearchForm />
-              <NavItem href="/cart" className=" cart-btn btn-floating blue hoverable">
+              <Link to="/cart" className=" cart-btn btn-floating blue hoverable">
                 <i className="material-icons">shopping_cart</i>
                 <span className="badge red">4</span>
-              </NavItem>
+              </Link>
             </div>
           </Row>
         </div>
