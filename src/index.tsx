@@ -1,9 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import HomePage from './pages/HomePage';
+// components
+import App from '../src/App';
 
 ReactDOM.render(
-    <HomePage />,
-    document.getElementById('app')
+  <App />,
+  document.getElementById('app')
 );

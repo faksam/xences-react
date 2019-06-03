@@ -1,0 +1,2690 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The ProductsPage component should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <ProductsPage
+      location={
+        Object {
+          "pathname": "/new",
+        }
+      }
+      match={
+        Object {
+          "url": "/new",
+        }
+      }
+    >
+      <Row>
+        <div
+          className="row"
+        >
+          <Col
+            s={4}
+          >
+            <div
+              className="col s4"
+            >
+              <Collapsible
+                accordion={true}
+              >
+                <ul
+                  className="collapsible"
+                  data-collapsible="accordion"
+                >
+                  <CollapsibleItem
+                    className="active"
+                    eventKey={0}
+                    expanded={false}
+                    header="NEW"
+                    key=".0"
+                    node="div"
+                    onSelect={[Function]}
+                  >
+                    <li
+                      className="active"
+                    >
+                      <div
+                        className="collapsible-header"
+                        onClick={[Function]}
+                      >
+                        NEW
+                      </div>
+                      <div
+                        className="collapsible-body"
+                      >
+                        <Collection>
+                          <ul
+                            className="collection"
+                          >
+                            <CollectionItem
+                              key="Shirts-1"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/shirts"
+                                >
+                                  <a
+                                    href="/new/clothing/shirts"
+                                    onClick={[Function]}
+                                  >
+                                    Shirts
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="T-Shirts-2"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/t-shirts"
+                                >
+                                  <a
+                                    href="/new/clothing/t-shirts"
+                                    onClick={[Function]}
+                                  >
+                                    T-Shirts
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Polo Shirts-3"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/poloshirts"
+                                >
+                                  <a
+                                    href="/new/clothing/poloshirts"
+                                    onClick={[Function]}
+                                  >
+                                    Polo Shirts
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Pants-4"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/pants"
+                                >
+                                  <a
+                                    href="/new/clothing/pants"
+                                    onClick={[Function]}
+                                  >
+                                    Pants
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Jeans-5"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/jeans"
+                                >
+                                  <a
+                                    href="/new/clothing/jeans"
+                                    onClick={[Function]}
+                                  >
+                                    Jeans
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Jumpers - Cardigans-6"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/jumpers-cardigans"
+                                >
+                                  <a
+                                    href="/new/clothing/jumpers-cardigans"
+                                    onClick={[Function]}
+                                  >
+                                    Jumpers - Cardigans
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Hoodies - Sweatshirts-7"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/hoodies-sweatshirts"
+                                >
+                                  <a
+                                    href="/new/clothing/hoodies-sweatshirts"
+                                    onClick={[Function]}
+                                  >
+                                    Hoodies - Sweatshirts
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Blazers - Suits-8"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/blazers-suits"
+                                >
+                                  <a
+                                    href="/new/clothing/blazers-suits"
+                                    onClick={[Function]}
+                                  >
+                                    Blazers - Suits
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Jackets - Coats-9"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/jackets-coats"
+                                >
+                                  <a
+                                    href="/new/clothing/jackets-coats"
+                                    onClick={[Function]}
+                                  >
+                                    Jackets - Coats
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Underwear - Sleepwear-10"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/underwear-sleepwear"
+                                >
+                                  <a
+                                    href="/new/clothing/underwear-sleepwear"
+                                    onClick={[Function]}
+                                  >
+                                    Underwear - Sleepwear
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Beachwear-10"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothing/beachwear"
+                                >
+                                  <a
+                                    href="/new/clothing/beachwear"
+                                    onClick={[Function]}
+                                  >
+                                    Beachwear
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                          </ul>
+                        </Collection>
+                      </div>
+                    </li>
+                  </CollapsibleItem>
+                  <CollapsibleItem
+                    eventKey={1}
+                    expanded={false}
+                    header="NEW"
+                    icon="games"
+                    key=".1"
+                    node="div"
+                    onSelect={[Function]}
+                  >
+                    <li
+                      className=""
+                    >
+                      <div
+                        className="collapsible-header"
+                        onClick={[Function]}
+                      >
+                        <Icon>
+                          <i
+                            className="material-icons"
+                          >
+                            games
+                          </i>
+                        </Icon>
+                        NEW
+                      </div>
+                      <div
+                        className="collapsible-body"
+                      >
+                        <Collection>
+                          <ul
+                            className="collection"
+                          >
+                            <CollectionItem
+                              key="Shoes-1"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/shoes"
+                                >
+                                  <a
+                                    href="/new/shoes"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Shoes
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Clothings-2"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/clothings"
+                                >
+                                  <a
+                                    href="/new/clothings"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Clothings
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Accessories-3"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/accessories"
+                                >
+                                  <a
+                                    href="/new/accessories"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Accessories
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Bags-4"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/bags"
+                                >
+                                  <a
+                                    href="/new/bags"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Bags
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Sports-5"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/sports"
+                                >
+                                  <a
+                                    href="/new/sports"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Sports
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Watches-6"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/watches"
+                                >
+                                  <a
+                                    href="/new/watches"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Watches
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Grooming-7"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/grooming"
+                                >
+                                  <a
+                                    href="/new/grooming"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Grooming
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                            <CollectionItem
+                              key="Brands-8"
+                            >
+                              <li
+                                className="collection-item"
+                              >
+                                <Link
+                                  to="/new/brands"
+                                >
+                                  <a
+                                    href="/new/brands"
+                                    onClick={[Function]}
+                                  >
+                                    New
+                                     
+                                    Brands
+                                  </a>
+                                </Link>
+                              </li>
+                            </CollectionItem>
+                          </ul>
+                        </Collection>
+                      </div>
+                    </li>
+                  </CollapsibleItem>
+                </ul>
+              </Collapsible>
+              <Collapsible
+                accordion={true}
+              >
+                <ul
+                  className="collapsible"
+                  data-collapsible="accordion"
+                >
+                  <CollapsibleItem
+                    eventKey={0}
+                    expanded={false}
+                    header="PRICE"
+                    key=".0"
+                    node="div"
+                    onSelect={[Function]}
+                  >
+                    <li
+                      className=""
+                    >
+                      <div
+                        className="collapsible-header"
+                        onClick={[Function]}
+                      >
+                        PRICE
+                      </div>
+                      <div
+                        className="collapsible-body"
+                      />
+                    </li>
+                  </CollapsibleItem>
+                </ul>
+              </Collapsible>
+              <Collection
+                header="BRAND"
+              >
+                <ul
+                  className="collection with-header"
+                >
+                  <li
+                    className="collection-header"
+                  >
+                    <h4>
+                      BRAND
+                    </h4>
+                  </li>
+                  <CollectionItem
+                    key="Nike-1"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Nike"
+                        value="Nike"
+                      >
+                        <label
+                          htmlFor={2}
+                        >
+                          <input
+                            className=""
+                            id={2}
+                            type="checkbox"
+                            value="Nike"
+                          />
+                          <span>
+                            Nike
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="Puma-2"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Puma"
+                        value="Puma"
+                      >
+                        <label
+                          htmlFor={3}
+                        >
+                          <input
+                            className=""
+                            id={3}
+                            type="checkbox"
+                            value="Puma"
+                          />
+                          <span>
+                            Puma
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="Otunba-3"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Otunba"
+                        value="Otunba"
+                      >
+                        <label
+                          htmlFor={4}
+                        >
+                          <input
+                            className=""
+                            id={4}
+                            type="checkbox"
+                            value="Otunba"
+                          />
+                          <span>
+                            Otunba
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                </ul>
+              </Collection>
+              <Collection
+                header="COLORS"
+              >
+                <ul
+                  className="collection with-header"
+                >
+                  <li
+                    className="collection-header"
+                  >
+                    <h4>
+                      COLORS
+                    </h4>
+                  </li>
+                  <CollectionItem
+                    key="Black-1"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Black"
+                        value="Black"
+                      >
+                        <label
+                          htmlFor={5}
+                        >
+                          <input
+                            className=""
+                            id={5}
+                            type="checkbox"
+                            value="Black"
+                          />
+                          <span>
+                            Black
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="Red-2"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Red"
+                        value="Red"
+                      >
+                        <label
+                          htmlFor={6}
+                        >
+                          <input
+                            className=""
+                            id={6}
+                            type="checkbox"
+                            value="Red"
+                          />
+                          <span>
+                            Red
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="Pink-3"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Pink"
+                        value="Pink"
+                      >
+                        <label
+                          htmlFor={7}
+                        >
+                          <input
+                            className=""
+                            id={7}
+                            type="checkbox"
+                            value="Pink"
+                          />
+                          <span>
+                            Pink
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="White-4"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="White"
+                        value="White"
+                      >
+                        <label
+                          htmlFor={8}
+                        >
+                          <input
+                            className=""
+                            id={8}
+                            type="checkbox"
+                            value="White"
+                          />
+                          <span>
+                            White
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                  <CollectionItem
+                    key="Blue-5"
+                  >
+                    <li
+                      className="collection-item"
+                    >
+                      <Checkbox
+                        label="Blue"
+                        value="Blue"
+                      >
+                        <label
+                          htmlFor={9}
+                        >
+                          <input
+                            className=""
+                            id={9}
+                            type="checkbox"
+                            value="Blue"
+                          />
+                          <span>
+                            Blue
+                          </span>
+                        </label>
+                      </Checkbox>
+                    </li>
+                  </CollectionItem>
+                </ul>
+              </Collection>
+            </div>
+          </Col>
+          <Col
+            s={8}
+          >
+            <div
+              className="col s8"
+            >
+              <ProductCard
+                products={
+                  Array [
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "10",
+                      "name": "Nice skirt",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "9",
+                      "name": "Nice top",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "8",
+                      "name": "Nice coat",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "7",
+                      "name": "Nice cap",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "6",
+                      "name": "Nice shirt",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "5",
+                      "name": "Nice skirt",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "4",
+                      "name": "Nice top",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "3",
+                      "name": "Nice coat",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "2",
+                      "name": "Nice cap",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                    Object {
+                      "attributes": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "1",
+                          "name": "color",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product size",
+                          "id": "2",
+                          "name": "size",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "description": "Product color",
+                          "id": "3",
+                          "name": "color",
+                        },
+                      ],
+                      "brand": Object {
+                        "createdAt": "12/05/19",
+                        "description": "Brand Nike",
+                        "id": "1",
+                        "name": "Nike",
+                      },
+                      "category": "Clothings",
+                      "createdAt": "05/12/19",
+                      "discountPercent": "10",
+                      "gender": "male",
+                      "id": "1",
+                      "name": "Nice shirt",
+                      "pictures": "https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg",
+                      "price": "2000",
+                      "quantity": 7,
+                      "ratings": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "rating": "4",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "rating": "4",
+                        },
+                      ],
+                      "reviews": Array [
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "1",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "2",
+                          "review": "Good product",
+                        },
+                        Object {
+                          "createdAt": "12/05/19",
+                          "id": "3",
+                          "review": "Good product",
+                        },
+                      ],
+                      "shop": Object {
+                        "address": "Cosmos",
+                        "createdAt": "12/05/19",
+                        "description": "Shop One",
+                        "id": "1",
+                        "name": "Shop 1",
+                        "owner": Object {
+                          "address": "Cosmos",
+                          "createdAt": "12/05/19",
+                          "email": "fakunlesamuel@gmail.com",
+                          "fullname": "Samuel Fakunle",
+                          "id": "1",
+                          "phone": "07039248533",
+                          "userRole": Object {
+                            "createdAt": "12/05/19",
+                            "description": "Shop Admin",
+                            "id": "1",
+                            "name": "Admin",
+                          },
+                        },
+                      },
+                    },
+                  ]
+                }
+              >
+                <Row>
+                  <div
+                    className="row"
+                  >
+                    <Col
+                      className="center"
+                      key="10"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice skirt
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /niceskirt"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /niceskirt"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="9"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice top
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicetop"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicetop"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="8"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice coat
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicecoat"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicecoat"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="7"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice cap
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicecap"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicecap"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="6"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice shirt
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /niceshirt"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /niceshirt"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="5"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice skirt
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /niceskirt"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /niceskirt"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="4"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice top
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicetop"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicetop"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="3"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice coat
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicecoat"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicecoat"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="2"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice cap
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /nicecap"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /nicecap"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                    <Col
+                      className="center"
+                      key="1"
+                      s={4}
+                    >
+                      <div
+                        className="col s4 center"
+                      >
+                        <Card
+                          className="card hoverable"
+                        >
+                          <div
+                            className="card hoverable card"
+                          >
+                            <div
+                              className="card-content"
+                            >
+                              <div>
+                                <img
+                                  className="cardImg"
+                                  src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                />
+                                <hr />
+                                <p>
+                                  Nice shirt
+                                </p>
+                                <p>
+                                   ₦
+                                  2000
+                                </p>
+                                <Row>
+                                  <div
+                                    className="row"
+                                  >
+                                    <p
+                                      className="chip"
+                                    >
+                                      S
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      M
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      L
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XL
+                                    </p>
+                                    <p
+                                      className="chip"
+                                    >
+                                      XXL
+                                    </p>
+                                  </div>
+                                </Row>
+                                <Button
+                                  className="btn-flat blue white-text"
+                                  href="/buynow/clothings
+                /niceshirt"
+                                  node="a"
+                                >
+                                  <a
+                                    className="btn btn-flat blue white-text"
+                                    disabled={false}
+                                    href="/buynow/clothings
+                /niceshirt"
+                                  >
+                                    Buy Now
+                                  </a>
+                                </Button>
+                              </div>
+                            </div>
+                            <div
+                              className="card-reveal"
+                            >
+                              <span
+                                className="card-title"
+                              >
+                                <Icon
+                                  right={true}
+                                >
+                                  <i
+                                    className="material-icons right"
+                                  >
+                                    close
+                                  </i>
+                                </Icon>
+                              </span>
+                            </div>
+                          </div>
+                        </Card>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </ProductCard>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </ProductsPage>
+  </Router>
+</BrowserRouter>
+`;

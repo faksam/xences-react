@@ -14,6 +14,7 @@ import { Button, Card, Col, Row } from 'react-materialize';
 // helper function
 
 // fixtures
+import ProductCard from '../../components/ProductCard';
 import { products } from '../../store/modules/products/fixtures';
 
 const NewArrivals = () => {
@@ -24,28 +25,7 @@ const NewArrivals = () => {
           NEW ARRIVALS
         </h4>
       </Row>
-      <Row>
-        {products.reverse().map(product => (
-          <Col s={3} className="center" key={product.id} >
-            <Card className="card hoverable">
-                <img className="cardImg" src={product.pictures} />
-                <hr />
-                <p>{product.name}</p>
-                <p> &#8358;{product.price}</p>
-                <Row>
-                  <p className="chip">S</p>
-                  <p className="chip">M</p>
-                  <p className="chip">L</p>
-                  <p className="chip">XL</p>
-                  <p className="chip">XXL</p>
-                </Row>
-              <Button className="btn-flat blue white-text" node="a" href={`/buynow/${product.id}`}>
-                Buy Now
-              </Button>
-            </Card>
-          </Col>
-        ))}
-      </Row>
+      <ProductCard {...{ products }} />
     </Row>
   );
 };

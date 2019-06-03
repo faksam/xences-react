@@ -1,5 +1,6 @@
 // import libraries
 import * as React from 'react';
+import { Link } from 'react-router-dom';
 
 // third-party libraries
 
@@ -7,7 +8,7 @@ import * as React from 'react';
 import './TopContent.scss';
 
 // components
-import { Button, Carousel, Col, Collection, CollectionItem, NavItem, Row } from 'react-materialize';
+import { Button, Carousel, Col, Collection, CollectionItem, Row } from 'react-materialize';
 
 // interfaces
 
@@ -38,9 +39,9 @@ const TopContent = () => {
         <Collection header="New Arrivals">
           {displayedCategories.map(category => (
             <CollectionItem key={category.id}>
-              <NavItem href={`/new/${category.name.toLowerCase()}`} >
+              <Link to={`/new/${category.name.toLowerCase()}`} >
               {category.name}
-              </NavItem>
+              </Link>
             </CollectionItem>
           ))}
         </Collection>
@@ -49,9 +50,9 @@ const TopContent = () => {
         <Collection header="Trending Now">
           {displayedCategories.map(category => (
             <CollectionItem key={category.id}>
-              <NavItem href={`/trending/${category.name.toLowerCase()}`} >
+              <Link to={`/trending/${category.name.toLowerCase()}`} >
                 {category.name}
-              </NavItem>
+              </Link>
             </CollectionItem>
           ))}
         </Collection>

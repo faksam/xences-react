@@ -20,7 +20,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -36,7 +36,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -52,7 +52,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -68,7 +68,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -84,7 +84,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -100,7 +100,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -116,7 +116,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -132,7 +132,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -148,7 +148,7 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
   },
   {
@@ -164,7 +164,76 @@ export const products = [
     quantity: 7,
     pictures: 'https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_001_xaepru.jpg',
     shop: shops[0],
-    category: categories[0],
+    category: categories[1].name,
     createdAt: '05/12/19',
+  },
+];
+
+export const menClothings = [
+  {
+    id: '1',
+    name: 'Shirts',
+    description: 'Shirts',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '2',
+    name: 'T-Shirts',
+    description: 'T-Shirts',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '3',
+    name: 'Polo Shirts',
+    description: 'Polo Shirts',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '4',
+    name: 'Pants',
+    description: 'Pants',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '5',
+    name: 'Jeans',
+    description: 'Jeans',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '6',
+    name: 'Jumpers - Cardigans',
+    description: 'Jumpers - Cardigans',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '7',
+    name: 'Hoodies - Sweatshirts',
+    description: 'Hoodies - Sweatshirts',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '8',
+    name: 'Blazers - Suits',
+    description: 'Blazers - Suits',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '9',
+    name: 'Jackets - Coats',
+    description: 'Jackets - Coats',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '10',
+    name: 'Underwear - Sleepwear',
+    description: 'Underwear - Sleepwear',
+    createdAt:  '12/05/19',
+  },
+  {
+    id: '10',
+    name: 'Beachwear',
+    description: 'Beachwear',
+    createdAt:  '12/05/19',
   },
 ];
