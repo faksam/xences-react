@@ -16,6 +16,7 @@ import {
   CollapsibleItem,
   Collection,
   CollectionItem,
+  Range,
   Row
 } from 'react-materialize';
 import ProductCard from '../../components/ProductCard';
@@ -75,6 +76,7 @@ export class ProductsPage extends React.Component<any, any> {
             </Collapsible>
             <Collapsible>
               <CollapsibleItem header="PRICE">
+                <Range min="1" max="Infinity" />
               </CollapsibleItem>
             </Collapsible>
             <Collection header="BRAND">

@@ -35,8 +35,11 @@ const ProductCard = (props) => {
             <Button
               className="btn-flat blue white-text"
               node="a"
-              href={`/buynow/${product.category.toLowerCase().replace(/\s/g, '')}
-                /${product.name.toLowerCase().replace(/\s/g, '')}`}>
+              href={
+                `/buy/${product.category.toLowerCase().replace(/\s/g, '')
+                }/${
+                  product.name.toLowerCase().replace(/\s/g, '')}`
+                  }>
               Buy Now
             </Button>
           </Card>

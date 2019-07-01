@@ -30,7 +30,7 @@ const TrendingNow = () => {
                   src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209414/TIMBERLAND001_elo3c3.jpg"
                 />
               </Row>
-            <Button className="btn-flat blue white-text" node="a" href="/buynow">Buy Now</Button>
+            <Button className="btn-flat blue white-text" node="a" href="/buy">Buy Now</Button>
           </Card>
         </Col>
         <Col s={4} className="center">
@@ -41,7 +41,7 @@ const TrendingNow = () => {
                   src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209414/CU2-WATCHES_pgiyoc.jpg"
                 />
               </Row>
-            <Button className="btn-flat blue white-text" node="a" href="/buynow">Buy Now</Button>
+            <Button className="btn-flat blue white-text" node="a" href="/buy">Buy Now</Button>
           </Card>
         </Col>
       </Row>
@@ -54,7 +54,7 @@ const TrendingNow = () => {
                   src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209414/CU2-WATCHES_pgiyoc.jpg"
                 />
               </Row>
-            <Button className="btn-flat blue white-text" node="a" href="/buynow">Buy Now</Button>
+            <Button className="btn-flat blue white-text" node="a" href="/buy">Buy Now</Button>
           </Card>
         </Col>
         <Col s={8} className="center">
@@ -65,7 +65,7 @@ const TrendingNow = () => {
                   src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209414/TIMBERLAND001_elo3c3.jpg"
                 />
               </Row>
-            <Button className="btn-flat blue white-text" node="a" href="/buynow">Buy Now</Button>
+            <Button className="btn-flat blue white-text" node="a" href="/buy">Buy Now</Button>
           </Card>
         </Col>
       </Row>

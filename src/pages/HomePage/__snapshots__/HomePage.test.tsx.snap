@@ -57,13 +57,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -79,13 +79,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -101,13 +101,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -123,13 +123,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -145,13 +145,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -167,13 +167,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -189,13 +189,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -211,13 +211,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -233,13 +233,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -255,13 +255,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -488,13 +488,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -510,13 +510,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -532,13 +532,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -554,13 +554,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -576,13 +576,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -598,13 +598,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -620,13 +620,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -642,13 +642,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -664,13 +664,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -686,13 +686,13 @@ exports[`The HomePage component should be render home page 1`] = `
                       />
                       <Button
                         className="carousel-btn btn-flat white blue-text"
-                        href="/buynow"
+                        href="/buy"
                         node="a"
                       >
                         <a
                           className="btn carousel-btn btn-flat white blue-text"
                           disabled={false}
-                          href="/buynow"
+                          href="/buy"
                         >
                           Buy Now
                         </a>
@@ -1714,15 +1714,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /niceskirt"
+                                href="/buy/clothings/niceskirt"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /niceskirt"
+                                  href="/buy/clothings/niceskirt"
                                 >
                                   Buy Now
                                 </a>
@@ -1813,15 +1811,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicetop"
+                                href="/buy/clothings/nicetop"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicetop"
+                                  href="/buy/clothings/nicetop"
                                 >
                                   Buy Now
                                 </a>
@@ -1912,15 +1908,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicecoat"
+                                href="/buy/clothings/nicecoat"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicecoat"
+                                  href="/buy/clothings/nicecoat"
                                 >
                                   Buy Now
                                 </a>
@@ -2011,15 +2005,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicecap"
+                                href="/buy/clothings/nicecap"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicecap"
+                                  href="/buy/clothings/nicecap"
                                 >
                                   Buy Now
                                 </a>
@@ -2110,15 +2102,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /niceshirt"
+                                href="/buy/clothings/niceshirt"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /niceshirt"
+                                  href="/buy/clothings/niceshirt"
                                 >
                                   Buy Now
                                 </a>
@@ -2209,15 +2199,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /niceskirt"
+                                href="/buy/clothings/niceskirt"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /niceskirt"
+                                  href="/buy/clothings/niceskirt"
                                 >
                                   Buy Now
                                 </a>
@@ -2308,15 +2296,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicetop"
+                                href="/buy/clothings/nicetop"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicetop"
+                                  href="/buy/clothings/nicetop"
                                 >
                                   Buy Now
                                 </a>
@@ -2407,15 +2393,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicecoat"
+                                href="/buy/clothings/nicecoat"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicecoat"
+                                  href="/buy/clothings/nicecoat"
                                 >
                                   Buy Now
                                 </a>
@@ -2506,15 +2490,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /nicecap"
+                                href="/buy/clothings/nicecap"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /nicecap"
+                                  href="/buy/clothings/nicecap"
                                 >
                                   Buy Now
                                 </a>
@@ -2605,15 +2587,13 @@ exports[`The HomePage component should be render home page 1`] = `
                               </Row>
                               <Button
                                 className="btn-flat blue white-text"
-                                href="/buynow/clothings
-                /niceshirt"
+                                href="/buy/clothings/niceshirt"
                                 node="a"
                               >
                                 <a
                                   className="btn btn-flat blue white-text"
                                   disabled={false}
-                                  href="/buynow/clothings
-                /niceshirt"
+                                  href="/buy/clothings/niceshirt"
                                 >
                                   Buy Now
                                 </a>
@@ -2696,13 +2676,13 @@ exports[`The HomePage component should be render home page 1`] = `
                             </Row>
                             <Button
                               className="btn-flat blue white-text"
-                              href="/buynow"
+                              href="/buy"
                               node="a"
                             >
                               <a
                                 className="btn btn-flat blue white-text"
                                 disabled={false}
-                                href="/buynow"
+                                href="/buy"
                               >
                                 Buy Now
                               </a>
@@ -2759,13 +2739,13 @@ exports[`The HomePage component should be render home page 1`] = `
                             </Row>
                             <Button
                               className="btn-flat blue white-text"
-                              href="/buynow"
+                              href="/buy"
                               node="a"
                             >
                               <a
                                 className="btn btn-flat blue white-text"
                                 disabled={false}
-                                href="/buynow"
+                                href="/buy"
                               >
                                 Buy Now
                               </a>
@@ -2828,13 +2808,13 @@ exports[`The HomePage component should be render home page 1`] = `
                             </Row>
                             <Button
                               className="btn-flat blue white-text"
-                              href="/buynow"
+                              href="/buy"
                               node="a"
                             >
                               <a
                                 className="btn btn-flat blue white-text"
                                 disabled={false}
-                                href="/buynow"
+                                href="/buy"
                               >
                                 Buy Now
                               </a>
@@ -2891,13 +2871,13 @@ exports[`The HomePage component should be render home page 1`] = `
                             </Row>
                             <Button
                               className="btn-flat blue white-text"
-                              href="/buynow"
+                              href="/buy"
                               node="a"
                             >
                               <a
                                 className="btn btn-flat blue white-text"
                                 disabled={false}
-                                href="/buynow"
+                                href="/buy"
                               >
                                 Buy Now
                               </a>
