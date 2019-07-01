@@ -64,15 +64,17 @@ export class ProductDetailsPage extends React.Component<{}> {
           <Col s={4} className="center">
             <Card>
               <Row>
-                <Select s={3} label="Size">
+                <TextInput label="Quantity" placeholder="1" type="number" max="100" min="1" />
+                <Select s={3} label="Size" value="Size">
+                  <option value="Size" disabled></option>
                   <option value="S">S</option>
                   <option value="M">M</option>
                   <option value="L">L</option>
                   <option value="XL">XL</option>
                   <option value="XXL">XXL</option>
                 </Select>
-                <TextInput label="Quantity" placeholder="1" type="number" max="100" min="1" />
-                <Select s={5} label="Color">
+                <Select s={5} label="Color" value="Color">
+                  <option value="Color" disabled></option>
                   <option value="White">White</option>
                   <option value="Black">Black</option>
                   <option value="Blue">Blue</option>
