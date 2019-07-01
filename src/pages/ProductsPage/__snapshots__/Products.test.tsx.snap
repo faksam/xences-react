@@ -506,7 +506,22 @@ exports[`The ProductsPage component should be render products page 1`] = `
                       </div>
                       <div
                         className="collapsible-body"
-                      />
+                      >
+                        <Range
+                          max="Infinity"
+                          min="1"
+                        >
+                          <p
+                            className="range-field"
+                          >
+                            <input
+                              max="Infinity"
+                              min="1"
+                              type="range"
+                            />
+                          </p>
+                        </Range>
+                      </div>
                     </li>
                   </CollapsibleItem>
                 </ul>
@@ -1750,15 +1765,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /niceskirt"
+                                  href="/buy/clothings/niceskirt"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /niceskirt"
+                                    href="/buy/clothings/niceskirt"
                                   >
                                     Buy Now
                                   </a>
@@ -1849,15 +1862,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicetop"
+                                  href="/buy/clothings/nicetop"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicetop"
+                                    href="/buy/clothings/nicetop"
                                   >
                                     Buy Now
                                   </a>
@@ -1948,15 +1959,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicecoat"
+                                  href="/buy/clothings/nicecoat"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicecoat"
+                                    href="/buy/clothings/nicecoat"
                                   >
                                     Buy Now
                                   </a>
@@ -2047,15 +2056,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicecap"
+                                  href="/buy/clothings/nicecap"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicecap"
+                                    href="/buy/clothings/nicecap"
                                   >
                                     Buy Now
                                   </a>
@@ -2146,15 +2153,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /niceshirt"
+                                  href="/buy/clothings/niceshirt"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /niceshirt"
+                                    href="/buy/clothings/niceshirt"
                                   >
                                     Buy Now
                                   </a>
@@ -2245,15 +2250,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /niceskirt"
+                                  href="/buy/clothings/niceskirt"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /niceskirt"
+                                    href="/buy/clothings/niceskirt"
                                   >
                                     Buy Now
                                   </a>
@@ -2344,15 +2347,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicetop"
+                                  href="/buy/clothings/nicetop"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicetop"
+                                    href="/buy/clothings/nicetop"
                                   >
                                     Buy Now
                                   </a>
@@ -2443,15 +2444,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicecoat"
+                                  href="/buy/clothings/nicecoat"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicecoat"
+                                    href="/buy/clothings/nicecoat"
                                   >
                                     Buy Now
                                   </a>
@@ -2542,15 +2541,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /nicecap"
+                                  href="/buy/clothings/nicecap"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /nicecap"
+                                    href="/buy/clothings/nicecap"
                                   >
                                     Buy Now
                                   </a>
@@ -2641,15 +2638,13 @@ exports[`The ProductsPage component should be render products page 1`] = `
                                 </Row>
                                 <Button
                                   className="btn-flat blue white-text"
-                                  href="/buynow/clothings
-                /niceshirt"
+                                  href="/buy/clothings/niceshirt"
                                   node="a"
                                 >
                                   <a
                                     className="btn btn-flat blue white-text"
                                     disabled={false}
-                                    href="/buynow/clothings
-                /niceshirt"
+                                    href="/buy/clothings/niceshirt"
                                   >
                                     Buy Now
                                   </a>

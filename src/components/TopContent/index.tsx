@@ -28,7 +28,7 @@ const TopContent = () => {
             {products.map(product => (
               <div key={product.id}>
                   <img className="carouselImgDiv" src={product.pictures} />
-                <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buynow">
+                <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buy">
                   Buy Now
                 </Button>
               </div>
@@ -62,7 +62,7 @@ const TopContent = () => {
           {products.map(product => (
             <div key={product.id}>
                 <img className="carouselImgDiv" src={product.pictures} />
-              <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buynow">Buy Now</Button>
+              <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buy">Buy Now</Button>
             </div>
           ))}
         </Carousel>
