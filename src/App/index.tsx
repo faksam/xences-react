@@ -4,11 +4,11 @@ import * as ReactDOM from 'react-dom';
 // Import Materialize
 import * as M from 'materialize-css';
 
-// third-party libraries
+// third party packages
+import { withCookies } from 'react-cookie';
 import { Provider } from 'react-redux';
 
 // components
-import NavigationBar from '../components/NavigationBar';
 import Routes from '../routes';
 import store from '../store';
 
@@ -27,4 +27,4 @@ class App extends React.Component<{}, null> {
   }
 }
 
-export default App;
+export default withCookies(App);

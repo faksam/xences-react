@@ -128,6 +128,35 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                         <div
                           className="row"
                         >
+                          <TextInput
+                            label="Quantity"
+                            max="100"
+                            min="1"
+                            placeholder="1"
+                            type="number"
+                          >
+                            <div
+                              className="input-field col"
+                            >
+                              <input
+                                className=""
+                                id={2}
+                                max="100"
+                                min="1"
+                                placeholder="1"
+                                type="number"
+                              />
+                              <label
+                                className="active"
+                                htmlFor={2}
+                              >
+                                Quantity
+                              </label>
+                              <span
+                                className="helper-text"
+                              />
+                            </div>
+                          </TextInput>
                           <Select
                             label="Size"
                             options={
@@ -151,13 +180,14 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                               }
                             }
                             s={3}
+                            value="Size"
                           >
                             <div
                               className="input-field col s3"
                             >
                               <select
                                 className=""
-                                id={2}
+                                id={3}
                                 onChange={[Function]}
                                 options={
                                   Object {
@@ -180,74 +210,51 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                                   }
                                 }
                                 type="select"
+                                value="Size"
                               >
                                 <option
-                                  key="S/.0"
+                                  disabled={true}
+                                  key="Size/.0"
+                                  value="Size"
+                                />
+                                <option
+                                  key="S/.1"
                                   value="S"
                                 >
                                   S
                                 </option>
                                 <option
-                                  key="M/.1"
+                                  key="M/.2"
                                   value="M"
                                 >
                                   M
                                 </option>
                                 <option
-                                  key="L/.2"
+                                  key="L/.3"
                                   value="L"
                                 >
                                   L
                                 </option>
                                 <option
-                                  key="XL/.3"
+                                  key="XL/.4"
                                   value="XL"
                                 >
                                   XL
                                 </option>
                                 <option
-                                  key="XXL/.4"
+                                  key="XXL/.5"
                                   value="XXL"
                                 >
                                   XXL
                                 </option>
                               </select>
                               <label
-                                htmlFor={2}
+                                htmlFor={3}
                               >
                                 Size
                               </label>
                             </div>
                           </Select>
-                          <TextInput
-                            label="Quantity"
-                            max="100"
-                            min="1"
-                            placeholder="1"
-                            type="number"
-                          >
-                            <div
-                              className="input-field col"
-                            >
-                              <input
-                                className=""
-                                id={3}
-                                max="100"
-                                min="1"
-                                placeholder="1"
-                                type="number"
-                              />
-                              <label
-                                className="active"
-                                htmlFor={3}
-                              >
-                                Quantity
-                              </label>
-                              <span
-                                className="helper-text"
-                              />
-                            </div>
-                          </TextInput>
                           <Select
                             label="Color"
                             options={
@@ -271,6 +278,7 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                               }
                             }
                             s={5}
+                            value="Color"
                           >
                             <div
                               className="input-field col s5"
@@ -300,33 +308,39 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                                   }
                                 }
                                 type="select"
+                                value="Color"
                               >
                                 <option
-                                  key="White/.0"
+                                  disabled={true}
+                                  key="Color/.0"
+                                  value="Color"
+                                />
+                                <option
+                                  key="White/.1"
                                   value="White"
                                 >
                                   White
                                 </option>
                                 <option
-                                  key="Black/.1"
+                                  key="Black/.2"
                                   value="Black"
                                 >
                                   Black
                                 </option>
                                 <option
-                                  key="Blue/.2"
+                                  key="Blue/.3"
                                   value="Blue"
                                 >
                                   Blue
                                 </option>
                                 <option
-                                  key="Green/.3"
+                                  key="Green/.4"
                                   value="Green"
                                 >
                                   Green
                                 </option>
                                 <option
-                                  key="Red/.4"
+                                  key="Red/.5"
                                   value="Red"
                                 >
                                   Red
