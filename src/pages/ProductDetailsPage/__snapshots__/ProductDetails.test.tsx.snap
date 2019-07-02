@@ -316,34 +316,34 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                                   value="Color"
                                 />
                                 <option
-                                  key="White/.1"
-                                  value="White"
-                                >
-                                  White
-                                </option>
-                                <option
-                                  key="Black/.2"
-                                  value="Black"
-                                >
-                                  Black
-                                </option>
-                                <option
-                                  key="Blue/.3"
+                                  key="Blue/.1:$5"
                                   value="Blue"
                                 >
                                   Blue
                                 </option>
                                 <option
-                                  key="Green/.4"
-                                  value="Green"
+                                  key="White/.1:$4"
+                                  value="White"
                                 >
-                                  Green
+                                  White
                                 </option>
                                 <option
-                                  key="Red/.5"
+                                  key="Pink/.1:$3"
+                                  value="Pink"
+                                >
+                                  Pink
+                                </option>
+                                <option
+                                  key="Red/.1:$2"
                                   value="Red"
                                 >
                                   Red
+                                </option>
+                                <option
+                                  key="Black/.1:$1"
+                                  value="Black"
+                                >
+                                  Black
                                 </option>
                               </select>
                               <label
