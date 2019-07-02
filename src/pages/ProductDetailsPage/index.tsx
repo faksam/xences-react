@@ -12,12 +12,7 @@ import './ProductDetailsPage.scss';
 import {
   Button,
   Card,
-  Checkbox,
   Col,
-  Collapsible,
-  CollapsibleItem,
-  Collection,
-  CollectionItem,
   Row,
   Select,
   TextInput,
@@ -33,7 +28,13 @@ import { brands, colors } from '../../store/modules/brands/fixtures';
 import { categories } from '../../store/modules/categories/fixtures';
 import { menClothings, products } from '../../store/modules/products/fixtures';
 
-export class ProductDetailsPage extends React.Component<{}> {
+export class ProductDetailsPage extends React.Component<any, any> {
+  constructor(props) {
+    super(props);
+
+    const { match } = props;
+  }
+
   render() {
     const product = products[1];
     return (
@@ -75,11 +76,9 @@ export class ProductDetailsPage extends React.Component<{}> {
                 </Select>
                 <Select s={5} label="Color" value="Color">
                   <option value="Color" disabled></option>
-                  <option value="White">White</option>
-                  <option value="Black">Black</option>
-                  <option value="Blue">Blue</option>
-                  <option value="Green">Green</option>
-                  <option value="Red">Red</option>
+                  {colors.reverse().map(color => (
+                    <option key={color.id} value={color.name}>{color.name}</option>
+                  ))}
                 </Select>
               </Row>
               <Row>
