@@ -6,7 +6,8 @@ export interface ProductCardProps {
   };
   product: Product;
   products: Product[];
-  size?: string;
+  cardSize?: string;
+  displayProductSize?: Boolean;
 }
 export interface ProductCardState {
 }
