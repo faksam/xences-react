@@ -26,7 +26,7 @@ const NewArrivals = () => {
         </h4>
         {products.reverse().map(product => (
           <Col s={4} key={product.id} className="center">
-            <ProductCard  {...{ product }} />
+            <ProductCard  {...{ product, displayProductSize: true }} />
           </Col>
         ))}
       </Row>

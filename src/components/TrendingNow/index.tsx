@@ -27,18 +27,18 @@ const TrendingNow = () => {
       </Row>
       <Row>
         <Col s={8} className="center">
-          <ProductCard {...{ product: trendingProducts[1], size: 'm' }} />
+          <ProductCard {...{ product: trendingProducts[1], cardSize: 'm', displayProductSize: false }} />
         </Col>
         <Col s={4} className="center">
-          <ProductCard {...{ product: trendingProducts[0], size: 'l' }} />
+          <ProductCard {...{ product: trendingProducts[0], cardSize: 'l', displayProductSize: false }} />
         </Col>
       </Row>
       <Row>
         <Col s={4} className="center">
-          <ProductCard {...{ product: trendingProducts[0], size: 'l' }} />
+          <ProductCard {...{ product: trendingProducts[0], cardSize: 'l', displayProductSize: false }} />
         </Col>
         <Col s={8} className="center">
-          <ProductCard {...{ product: trendingProducts[1], size: 'm' }} />
+          <ProductCard {...{ product: trendingProducts[1], cardSize: 'm', displayProductSize: false }} />
         </Col>
       </Row>
     </Row>
