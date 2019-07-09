@@ -8,6 +8,7 @@ import { Review } from 'modules/reviews/interfaces';
 export interface Product {
   id: string;
   name: string;
+  description: string;
   discountPercent: string;
   price: string;
   gender: string;

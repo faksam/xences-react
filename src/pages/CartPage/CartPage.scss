@@ -1,0 +1,48 @@
+.CartPage {
+  .productImgCol {
+    height: 8rem;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .productRow {
+    margin: 0;
+    // white-space: nowrap;
+  }
+
+  .productCount {
+    margin: 0.25rem;
+    float: right;
+  }
+
+  .productPrice {
+    padding: 1rem;
+    font-weight: bold;
+    float: right;
+  }
+
+  .productCo {
+    float: right;
+  }
+
+  .productColor {
+    padding-top: 1rem;
+  }
+
+  .productDetails {
+    // padding: 0.8rem;
+    overflow-wrap: break-word;
+  }
+
+  .productDeleteBtn {
+    padding: 1rem;
+  }
+
+  .productName {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+  }
+}

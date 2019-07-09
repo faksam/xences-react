@@ -22,12 +22,12 @@ const TopContent = () => {
   const displayedCategories = categories.slice(0, 4);
 
   return (
-    <Row>
+    <Row className="TopContent">
         <Col s={4}>
           <Carousel options={{ fullWidth: true, indicators: true }}>
             {products.map(product => (
-              <div key={product.id}>
-                  <img className="carouselImgDiv" src={product.pictures} />
+              <div className="carouselImgDiv" key={product.id}>
+                  <img src={product.pictures} />
                 <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buy">
                   Buy Now
                 </Button>
@@ -60,8 +60,8 @@ const TopContent = () => {
       <Col s={4}>
         <Carousel options={{ fullWidth: true, indicators: true }}>
           {products.map(product => (
-            <div key={product.id}>
-                <img className="carouselImgDiv" src={product.pictures} />
+            <div className="carouselImgDiv" key={product.id}>
+                <img src={product.pictures} />
               <Button className="carousel-btn btn-flat white blue-text" node="a" href="/buy">Buy Now</Button>
             </div>
           ))}

@@ -60,6 +60,7 @@ export class ProductDetailsPage extends React.Component<any, any> {
           <Col s={2}>
             <h5><b>{product.name}</b></h5>
             <p>{product.category}</p>
+            <p>{product.description}</p>
             <p>&#8358;{product.price}</p>
           </Col>
           <Col s={4} className="center">
@@ -82,7 +83,7 @@ export class ProductDetailsPage extends React.Component<any, any> {
                 </Select>
               </Row>
               <Row>
-                <Button>ADD TO CART</Button>
+                <Link className="btn" to="/cart">ADD TO CART</Link>
               </Row>
             </Card>
           </Col>

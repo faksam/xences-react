@@ -1,0 +1,506 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The CartPage component should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <CartPage>
+      <div
+        className="CartPage"
+      >
+        <Row>
+          <div
+            className="row"
+          >
+            <Col
+              s={8}
+            >
+              <div
+                className="col s8"
+              >
+                <Row
+                  className="productRow"
+                  key="3"
+                >
+                  <div
+                    className="row productRow"
+                  >
+                    <Card
+                      className="card"
+                    >
+                      <div
+                        className="card card"
+                      >
+                        <div
+                          className="card-content"
+                        >
+                          <div>
+                            <Row>
+                              <div
+                                className="row"
+                              >
+                                <Col
+                                  className="productImgCol"
+                                  s={3}
+                                >
+                                  <div
+                                    className="col s3 productImgCol"
+                                  >
+                                    <img
+                                      src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  s={9}
+                                >
+                                  <div
+                                    className="col s9"
+                                  >
+                                    <Col
+                                      s={9}
+                                    >
+                                      <div
+                                        className="col s9"
+                                      >
+                                        <p>
+                                          Nice coat
+                                        </p>
+                                        <p
+                                          className="productName"
+                                        >
+                                          A beautiful nice coat designed by the freshest designer.
+                                        </p>
+                                        <p>
+                                          Red
+                                        </p>
+                                        <p>
+                                          ₦
+                                          2000
+                                        </p>
+                                      </div>
+                                    </Col>
+                                    <Col
+                                      className="productCo"
+                                      s={3}
+                                    >
+                                      <div
+                                        className="col s3 productCo"
+                                      >
+                                        <TextInput
+                                          label="Quantity"
+                                          max="100"
+                                          min="1"
+                                          placeholder="1"
+                                          type="number"
+                                        >
+                                          <div
+                                            className="input-field col"
+                                          >
+                                            <input
+                                              className=""
+                                              id={2}
+                                              max="100"
+                                              min="1"
+                                              placeholder="1"
+                                              type="number"
+                                            />
+                                            <label
+                                              className="active"
+                                              htmlFor={2}
+                                            >
+                                              Quantity
+                                            </label>
+                                            <span
+                                              className="helper-text"
+                                            />
+                                          </div>
+                                        </TextInput>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </div>
+                        <div
+                          className="card-reveal"
+                        >
+                          <span
+                            className="card-title"
+                          >
+                            <Icon
+                              right={true}
+                            >
+                              <i
+                                className="material-icons right"
+                              >
+                                close
+                              </i>
+                            </Icon>
+                          </span>
+                        </div>
+                      </div>
+                    </Card>
+                  </div>
+                </Row>
+                <Row
+                  className="productRow"
+                  key="2"
+                >
+                  <div
+                    className="row productRow"
+                  >
+                    <Card
+                      className="card"
+                    >
+                      <div
+                        className="card card"
+                      >
+                        <div
+                          className="card-content"
+                        >
+                          <div>
+                            <Row>
+                              <div
+                                className="row"
+                              >
+                                <Col
+                                  className="productImgCol"
+                                  s={3}
+                                >
+                                  <div
+                                    className="col s3 productImgCol"
+                                  >
+                                    <img
+                                      src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  s={9}
+                                >
+                                  <div
+                                    className="col s9"
+                                  >
+                                    <Col
+                                      s={9}
+                                    >
+                                      <div
+                                        className="col s9"
+                                      >
+                                        <p>
+                                          Nice cap
+                                        </p>
+                                        <p
+                                          className="productName"
+                                        >
+                                          A beautiful nice cap designed by the freshest designer.
+                                        </p>
+                                        <p>
+                                          Red
+                                        </p>
+                                        <p>
+                                          ₦
+                                          2000
+                                        </p>
+                                      </div>
+                                    </Col>
+                                    <Col
+                                      className="productCo"
+                                      s={3}
+                                    >
+                                      <div
+                                        className="col s3 productCo"
+                                      >
+                                        <TextInput
+                                          label="Quantity"
+                                          max="100"
+                                          min="1"
+                                          placeholder="1"
+                                          type="number"
+                                        >
+                                          <div
+                                            className="input-field col"
+                                          >
+                                            <input
+                                              className=""
+                                              id={3}
+                                              max="100"
+                                              min="1"
+                                              placeholder="1"
+                                              type="number"
+                                            />
+                                            <label
+                                              className="active"
+                                              htmlFor={3}
+                                            >
+                                              Quantity
+                                            </label>
+                                            <span
+                                              className="helper-text"
+                                            />
+                                          </div>
+                                        </TextInput>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </div>
+                        <div
+                          className="card-reveal"
+                        >
+                          <span
+                            className="card-title"
+                          >
+                            <Icon
+                              right={true}
+                            >
+                              <i
+                                className="material-icons right"
+                              >
+                                close
+                              </i>
+                            </Icon>
+                          </span>
+                        </div>
+                      </div>
+                    </Card>
+                  </div>
+                </Row>
+                <Row
+                  className="productRow"
+                  key="1"
+                >
+                  <div
+                    className="row productRow"
+                  >
+                    <Card
+                      className="card"
+                    >
+                      <div
+                        className="card card"
+                      >
+                        <div
+                          className="card-content"
+                        >
+                          <div>
+                            <Row>
+                              <div
+                                className="row"
+                              >
+                                <Col
+                                  className="productImgCol"
+                                  s={3}
+                                >
+                                  <div
+                                    className="col s3 productImgCol"
+                                  >
+                                    <img
+                                      src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
+                                    />
+                                  </div>
+                                </Col>
+                                <Col
+                                  s={9}
+                                >
+                                  <div
+                                    className="col s9"
+                                  >
+                                    <Col
+                                      s={9}
+                                    >
+                                      <div
+                                        className="col s9"
+                                      >
+                                        <p>
+                                          Nice shirt
+                                        </p>
+                                        <p
+                                          className="productName"
+                                        >
+                                          A beautiful nice shirt designed by the freshest designer.
+                                        </p>
+                                        <p>
+                                          Red
+                                        </p>
+                                        <p>
+                                          ₦
+                                          2000
+                                        </p>
+                                      </div>
+                                    </Col>
+                                    <Col
+                                      className="productCo"
+                                      s={3}
+                                    >
+                                      <div
+                                        className="col s3 productCo"
+                                      >
+                                        <TextInput
+                                          label="Quantity"
+                                          max="100"
+                                          min="1"
+                                          placeholder="1"
+                                          type="number"
+                                        >
+                                          <div
+                                            className="input-field col"
+                                          >
+                                            <input
+                                              className=""
+                                              id={4}
+                                              max="100"
+                                              min="1"
+                                              placeholder="1"
+                                              type="number"
+                                            />
+                                            <label
+                                              className="active"
+                                              htmlFor={4}
+                                            >
+                                              Quantity
+                                            </label>
+                                            <span
+                                              className="helper-text"
+                                            />
+                                          </div>
+                                        </TextInput>
+                                      </div>
+                                    </Col>
+                                  </div>
+                                </Col>
+                              </div>
+                            </Row>
+                          </div>
+                        </div>
+                        <div
+                          className="card-reveal"
+                        >
+                          <span
+                            className="card-title"
+                          >
+                            <Icon
+                              right={true}
+                            >
+                              <i
+                                className="material-icons right"
+                              >
+                                close
+                              </i>
+                            </Icon>
+                          </span>
+                        </div>
+                      </div>
+                    </Card>
+                  </div>
+                </Row>
+              </div>
+            </Col>
+            <Col
+              s={4}
+            >
+              <div
+                className="col s4"
+              >
+                <Card
+                  title="Order Summary"
+                >
+                  <div
+                    className="card"
+                  >
+                    <div
+                      className="card-content"
+                    >
+                      <span
+                        className="card-title"
+                      >
+                        Order Summary
+                      </span>
+                      <div>
+                        <Row>
+                          <div
+                            className="row"
+                          >
+                            <hr />
+                            <p>
+                              SUBTOTAL: 6000.00
+                            </p>
+                            <p>
+                              SHIPPING: 500.00
+                            </p>
+                            <hr />
+                            <p>
+                              <b>
+                                GRAND TOTAL: 6500.00
+                              </b>
+                            </p>
+                          </div>
+                        </Row>
+                        <Link
+                          className="btn"
+                          to="/checkout"
+                        >
+                          <a
+                            className="btn"
+                            href="/checkout"
+                            onClick={[Function]}
+                          >
+                            GO TO CHECKOUT
+                          </a>
+                        </Link>
+                      </div>
+                    </div>
+                    <div
+                      className="card-reveal"
+                    >
+                      <span
+                        className="card-title"
+                      >
+                        Order Summary
+                        <Icon
+                          right={true}
+                        >
+                          <i
+                            className="material-icons right"
+                          >
+                            close
+                          </i>
+                        </Icon>
+                      </span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </CartPage>
+  </Router>
+</BrowserRouter>
+`;

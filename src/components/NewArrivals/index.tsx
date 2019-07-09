@@ -19,13 +19,18 @@ import { products } from '../../store/modules/products/fixtures';
 
 const NewArrivals = () => {
   return (
-    <Row>
+    <Row className="NewArrivals">
       <Row>
         <h4 className="center blue-text">
           NEW ARRIVALS
         </h4>
+        {products.reverse().map(product => (
+          <Col s={4} key={product.id} className="center">
+            <ProductCard  {...{ product }} />
+          </Col>
+        ))}
       </Row>
-      <ProductCard {...{ products }} />
+
     </Row>
   );
 };

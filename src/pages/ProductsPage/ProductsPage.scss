@@ -1,3 +1,20 @@
-.collapsible-header {
-  font-weight: bold;
+.ProductsPage {
+  img {
+    width: 100%;
+  }
+
+  .collapsible-header {
+    font-weight: bold;
+  }
+
+  .card {
+    margin: 0.5rem;
+  }
+
+  .collection-header {
+    h4 {
+      font-size: unset;
+      font-weight: bold;
+    }
+  }
 }

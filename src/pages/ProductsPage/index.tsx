@@ -48,7 +48,7 @@ export class ProductsPage extends React.Component<any, any> {
     }
     return (
       <React.Fragment>
-        <Row>
+        <Row className="ProductsPage">
           <Col s={4}>
             <Collapsible accordion>
               <CollapsibleItem header={splitCatHeader} className="active">
@@ -95,7 +95,12 @@ export class ProductsPage extends React.Component<any, any> {
             </Collection>
           </Col>
           <Col s={8}>
-            <ProductCard {...{ products }} />
+            {/* <ProductCard {...{ products }} /> */}
+            {products.reverse().map(product => (
+              <Col s={4} key={product.id} className="center">
+                <ProductCard  {...{ product }} />
+              </Col>
+            ))}
           </Col>
         </Row>
       </React.Fragment>

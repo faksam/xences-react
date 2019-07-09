@@ -1,16 +1,23 @@
-.collection-header {
-  h4 {
-    font-size: 1rem;
-    font-weight: bold;
+.TopContent {
+  .collection-header {
+    h4 {
+      font-size: 1rem;
+      font-weight: bold;
+    }
   }
-}
 
-.carousel-btn {
-  position: absolute;
-  bottom: 50%;
-  left: 35%;
-}
+  .carousel-btn {
+    position: absolute;
+    bottom: 50%;
+    left: 35%;
+  }
 
-.carouselImgDiv {
-  height: 100%;
+  .carouselImgDiv {
+    height: 240rem;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
