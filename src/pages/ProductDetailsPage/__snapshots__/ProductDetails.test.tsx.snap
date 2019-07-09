@@ -104,6 +104,9 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                 Clothings
               </p>
               <p>
+                A beautiful nice cap designed by the freshest designer.
+              </p>
+              <p>
                 ₦
                 2000
               </p>
@@ -359,16 +362,18 @@ exports[`The ProductDetailsPage component should be render products page 1`] = `
                         <div
                           className="row"
                         >
-                          <Button
-                            node="button"
+                          <Link
+                            className="btn"
+                            to="/cart"
                           >
-                            <button
+                            <a
                               className="btn"
-                              disabled={false}
+                              href="/cart"
+                              onClick={[Function]}
                             >
                               ADD TO CART
-                            </button>
-                          </Button>
+                            </a>
+                          </Link>
                         </div>
                       </Row>
                     </div>

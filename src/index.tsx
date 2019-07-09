@@ -5,7 +5,7 @@ import * as ReactDOM from 'react-dom';
 import { CookiesProvider } from 'react-cookie';
 
 // components
-import App from '../src/App';
+import App from './App';
 
 ReactDOM.render(
   <CookiesProvider>

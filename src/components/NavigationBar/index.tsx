@@ -71,7 +71,7 @@ const NavigationBar = () => {
               <SearchForm />
               <Link to="/cart" className=" cart-btn btn-floating blue hoverable">
                 <i className="material-icons">shopping_cart</i>
-                <span className="badge red">4</span>
+                <span className="badge red">3</span>
               </Link>
             </div>
           </Row>

@@ -1,4 +1,4 @@
-import Product from '../../store/modules/products/interfaces';
+import Product from 'modules/products/interfaces';
 
 export interface ProductCardProps {
   history: {
@@ -6,6 +6,7 @@ export interface ProductCardProps {
   };
   product: Product;
   products: Product[];
+  size?: string;
 }
 export interface ProductCardState {
 }

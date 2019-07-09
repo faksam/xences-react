@@ -6,6 +6,7 @@ import { BrowserRouter as Router, HashRouter, Link, Redirect, Route, Switch } fr
 
 // components
 import NavigationBar from '../components/NavigationBar';
+import { CartPage } from '../pages/CartPage';
 import { HomePage } from '../pages/HomePage';
 import { ProductDetailsPage } from '../pages/ProductDetailsPage';
 import { ProductsPage } from '../pages/ProductsPage';
@@ -22,6 +23,7 @@ const Routes = () => (
         <Route path="/trending" component={ProductsPage} />
         <Route path="/top-search" component={ProductsPage} />
         <Route path="/buy" component={ProductDetailsPage} />
+        <Route path="/cart" component={CartPage} />
       </Switch>
     </div>
   </Router>

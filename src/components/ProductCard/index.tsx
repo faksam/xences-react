@@ -33,27 +33,24 @@ class ProductCard extends React.Component<ProductCardProps, ProductCardState> {
   }
 
   render() {
-    const { products } = this.props;
+    const { product, size } = this.props;
     return (
-      <Row>
-        {products.reverse().map(product => (
-          <Col s={4} className="center" key={product.id} >
-            <Card className="card hoverable">
-              <img className="cardImg" src={product.pictures} />
-              <hr />
-              <p>{product.name}</p>
-              <p> &#8358;{product.price}</p>
-              <Row>
-                <p className="chip">S</p>
-                <p className="chip">M</p>
-                <p className="chip">L</p>
-                <p className="chip">XL</p>
-                <p className="chip">XXL</p>
-              </Row>
-              <Button className="btn-flat blue white-text" onClick={this.handleBuy(product)}>Buy Now</Button>
-            </Card>
-          </Col>
-        ))}
+      <Row className="ProductCard">
+        {product ?
+          <Card className={`card hoverable ${size}`}>
+            <img src={product.pictures} />
+            <hr />
+            <p>{product.name}</p>
+            <p> &#8358;{product.price}</p>
+            <Row>
+              <p className="chip">S</p>
+              <p className="chip">M</p>
+              <p className="chip">L</p>
+              <p className="chip">XL</p>
+              <p className="chip">XXL</p>
+            </Row>
+            <Button className="btn-flat blue white-text" onClick={this.handleBuy(product)}>Buy Now</Button>
+          </Card> : ''}
       </Row>
     );
   }
