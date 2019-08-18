@@ -4,15 +4,14 @@ import * as React from 'react';
 // third-party libraries
 
 // styles
-import './signUpForm.scss';
+import './SignUpForm.scss';
 
 // components
 import { Button, Col, Row, TextInput } from 'react-materialize';
 
 const signUpForm = () => {
-
   return (
-    <Row className="signUpForm">
+    <Row className="sign-up-form">
       <Col s={6} >
         <TextInput className="formInput" label="Display Name" />
         <TextInput className="formInput" label="Phone No" />

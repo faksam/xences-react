@@ -19,7 +19,7 @@ import { products } from '../../store/modules/products/fixtures';
 
 const NewArrivals = () => {
   return (
-    <Row className="NewArrivals">
+    <Row className="new-arrivals">
       <Row>
         <h4 className="center blue-text">
           NEW ARRIVALS

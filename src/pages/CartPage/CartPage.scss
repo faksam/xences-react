@@ -1,5 +1,5 @@
-.CartPage {
-  .productImgCol {
+.cart-page {
+  .product-img-col {
     height: 8rem;
 
     img {
@@ -7,40 +7,21 @@
     }
   }
 
-  .productRow {
+  .product-row {
     margin: 0;
     // white-space: nowrap;
   }
 
-  .productCount {
+  .product-count {
     margin: 0.25rem;
     float: right;
   }
 
-  .productPrice {
-    padding: 1rem;
-    font-weight: bold;
+  .product-detail-col {
     float: right;
   }
 
-  .productCo {
-    float: right;
-  }
-
-  .productColor {
-    padding-top: 1rem;
-  }
-
-  .productDetails {
-    // padding: 0.8rem;
-    overflow-wrap: break-word;
-  }
-
-  .productDeleteBtn {
-    padding: 1rem;
-  }
-
-  .productName {
+  .product-name {
     overflow-wrap: break-word;
     word-wrap: break-word;
     hyphens: auto;
