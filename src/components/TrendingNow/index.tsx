@@ -19,7 +19,7 @@ import { trendingProducts } from '../../store/modules/products/fixtures';
 
 const TrendingNow = () => {
   return (
-    <Row className="TrendingNow">
+    <Row className="trending-now">
       <Row>
         <h4 className="center blue-text">
           TRENDING NOW

@@ -4,14 +4,14 @@ import * as React from 'react';
 // third-party libraries
 
 // styles
-import './AuthPage.scss';
+import './AccountPage.scss';
 
 // components
 import { Tab, Tabs } from 'react-materialize';
 import SignInForm from '../../components/SignInForm';
 import SignUpForm from '../../components/SignUpForm';
 
-export class AuthPage extends React.Component<any, any> {
+export class AccountPage extends React.Component<any, any> {
   constructor(props) {
     super(props);
   }
@@ -19,7 +19,7 @@ export class AuthPage extends React.Component<any, any> {
   render() {
     return (
       <React.Fragment>
-        <div className="auth-page">
+        <div className="AccountPage">
           <Tabs class="tabs">
             <Tab title="Sign In" active>
               <SignInForm />
@@ -34,4 +34,4 @@ export class AuthPage extends React.Component<any, any> {
   }
 }
 
-export default AuthPage;
+export default AccountPage;

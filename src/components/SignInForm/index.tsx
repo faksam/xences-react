@@ -4,15 +4,14 @@ import * as React from 'react';
 // third-party libraries
 
 // styles
-import './signInForm.scss';
+import './SignInForm.scss';
 
 // components
 import { Button, Col, Row, TextInput } from 'react-materialize';
 
 const SignInForm = () => (
-  <Row className="signInForm">
+  <Row className="sign-in-form">
     <Col s={6} >
-      {/* <TextInput password label="Password" /> */}
       <TextInput className="formInput" email validate label="Email" />
       <TextInput className="formInput" password label="Password" />
       <Button className="">Sign In</Button>

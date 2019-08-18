@@ -35,7 +35,7 @@ class ProductCard extends React.Component<ProductCardProps, ProductCardState> {
   render() {
     const { product, cardSize, displayProductSize } = this.props;
     return (
-      <Row className="ProductCard">
+      <Row className="product-card">
         {product ?
           <Card className={`card hoverable ${cardSize}`}>
             <img src={product.pictures} />
@@ -43,7 +43,7 @@ class ProductCard extends React.Component<ProductCardProps, ProductCardState> {
             <p>{product.name}</p>
             <p> &#8358;{product.price}</p>
             {displayProductSize ?
-              <Row className="productSize">
+              <Row className="product-size">
                 <p className="chip">S</p>
                 <p className="chip">M</p>
                 <p className="chip">L</p>
