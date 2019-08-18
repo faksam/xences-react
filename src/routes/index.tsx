@@ -6,27 +6,31 @@ import { BrowserRouter as Router, HashRouter, Link, Redirect, Route, Switch } fr
 
 // components
 import NavigationBar from '../components/NavigationBar';
+import { AuthPage } from '../pages/AuthPage';
 import { CartPage } from '../pages/CartPage';
 import { HomePage } from '../pages/HomePage';
 import { ProductDetailsPage } from '../pages/ProductDetailsPage';
 import { ProductsPage } from '../pages/ProductsPage';
 
-const Routes = () => (
-  <Router>
-    <div className="container">
-      <NavigationBar />
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/new" component={ProductsPage} />
-        <Route path="/men" component={ProductsPage} />
-        <Route path="/women" component={ProductsPage} />
-        <Route path="/trending" component={ProductsPage} />
-        <Route path="/top-search" component={ProductsPage} />
-        <Route path="/buy" component={ProductDetailsPage} />
-        <Route path="/cart" component={CartPage} />
-      </Switch>
-    </div>
-  </Router>
-);
+const Routes = (props: any) => {
+  return (
+    <Router>
+      <div className="container">
+        <NavigationBar { ...{ auth: props.auth } } />
+        <Switch>
+          <Route exact path="/" component={HomePage} />
+          <Route path="/new" component={ProductsPage} />
+          <Route path="/men" component={ProductsPage} />
+          <Route path="/women" component={ProductsPage} />
+          <Route path="/trending" component={ProductsPage} />
+          <Route path="/top-search" component={ProductsPage} />
+          <Route path="/buy" component={ProductDetailsPage} />
+          <Route path="/cart" component={CartPage} />
+          <Route path="/account" component={AuthPage} />
+        </Switch>
+      </div>
+    </Router>
+  );
+};
 
 export default Routes;

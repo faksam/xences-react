@@ -1,15 +1,17 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-// third-party libraries
-import { CookiesProvider } from 'react-cookie';
+// third party packages
+import { Provider } from 'react-redux';
 
 // components
 import App from './App';
 
+import store from './store';
+
 ReactDOM.render(
-  <CookiesProvider>
+  <Provider store={store}>
     <App />
-  </CookiesProvider>,
+  </Provider>,
   document.getElementById('app')
 );

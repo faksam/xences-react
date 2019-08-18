@@ -470,7 +470,7 @@ exports[`The CartPage component should be render products page 1`] = `
                             href="/checkout"
                             onClick={[Function]}
                           >
-                            GO TO CHECKOUT
+                            CHECKOUT
                           </a>
                         </Link>
                       </div>
