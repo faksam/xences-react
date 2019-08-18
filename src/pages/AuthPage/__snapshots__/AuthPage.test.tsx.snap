@@ -1,0 +1,387 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AuthPage component should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AuthPage>
+      <div
+        className="AuthPage"
+      >
+        <Tabs
+          class="tabs"
+        >
+          <ul
+            className="tabs"
+          >
+            <li
+              className="tab col"
+              key="20/.0"
+            >
+              <a
+                className="active"
+                href="#tab_20"
+                onClick={[Function]}
+              >
+                Sign In
+              </a>
+            </li>
+            <li
+              className="tab col"
+              key="21/.1"
+            >
+              <a
+                className=""
+                href="#tab_21"
+                onClick={[Function]}
+              >
+                Sign Up
+              </a>
+            </li>
+          </ul>
+          <Row>
+            <div
+              className="row"
+            >
+              <Tab
+                active={true}
+                idx="20"
+                key=".0"
+                options={
+                  Object {
+                    "duration": 300,
+                    "onShow": null,
+                    "responsiveThreshold": Infinity,
+                    "swipeable": false,
+                  }
+                }
+                title="Sign In"
+              >
+                <Col
+                  id="tab_20"
+                  s={12}
+                >
+                  <div
+                    className="col s12"
+                    id="tab_20"
+                  >
+                    <SignInForm>
+                      <Row
+                        className="signInForm"
+                      >
+                        <div
+                          className="row signInForm"
+                        >
+                          <Col
+                            s={6}
+                          >
+                            <div
+                              className="col s6"
+                            >
+                              <TextInput
+                                className="formInput"
+                                email={true}
+                                label="Email"
+                                validate={true}
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id="email4"
+                                    type="email"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor="email4"
+                                  >
+                                    Email
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <TextInput
+                                className="formInput"
+                                label="Password"
+                                password={true}
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id="password6"
+                                    type="password"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor="password6"
+                                  >
+                                    Password
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <Button
+                                className=""
+                                node="button"
+                              >
+                                <button
+                                  className="btn"
+                                  disabled={false}
+                                >
+                                  Sign In
+                                </button>
+                              </Button>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </SignInForm>
+                  </div>
+                </Col>
+              </Tab>
+              <Tab
+                idx="21"
+                key=".1"
+                options={
+                  Object {
+                    "duration": 300,
+                    "onShow": null,
+                    "responsiveThreshold": Infinity,
+                    "swipeable": false,
+                  }
+                }
+                title="Sign Up"
+              >
+                <Col
+                  id="tab_21"
+                  s={12}
+                >
+                  <div
+                    className="col s12"
+                    id="tab_21"
+                  >
+                    <signUpForm>
+                      <Row
+                        className="signUpForm"
+                      >
+                        <div
+                          className="row signUpForm"
+                        >
+                          <Col
+                            s={6}
+                          >
+                            <div
+                              className="col s6"
+                            >
+                              <TextInput
+                                className="formInput"
+                                label="Display Name"
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id={7}
+                                    type="text"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor={7}
+                                  >
+                                    Display Name
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <TextInput
+                                className="formInput"
+                                label="Phone No"
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id={8}
+                                    type="text"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor={8}
+                                  >
+                                    Phone No
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <TextInput
+                                className="formInput"
+                                label="Address"
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id={9}
+                                    type="text"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor={9}
+                                  >
+                                    Address
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                            </div>
+                          </Col>
+                          <Col
+                            s={6}
+                          >
+                            <div
+                              className="col s6"
+                            >
+                              <TextInput
+                                className="formInput"
+                                email={true}
+                                label="Email"
+                                validate={true}
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id="email11"
+                                    type="email"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor="email11"
+                                  >
+                                    Email
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <TextInput
+                                className="formInput"
+                                label="Password"
+                                password={true}
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id="password13"
+                                    type="password"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor="password13"
+                                  >
+                                    Password
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                              <TextInput
+                                className="formInput"
+                                label="Confirm Password"
+                                password={true}
+                              >
+                                <div
+                                  className="input-field col"
+                                >
+                                  <input
+                                    className="formInput"
+                                    id="password15"
+                                    type="password"
+                                  />
+                                  <label
+                                    className=""
+                                    htmlFor="password15"
+                                  >
+                                    Confirm Password
+                                  </label>
+                                  <span
+                                    className="helper-text"
+                                  />
+                                </div>
+                              </TextInput>
+                            </div>
+                          </Col>
+                          <Col
+                            s={6}
+                          >
+                            <div
+                              className="col s6"
+                            >
+                              <Button
+                                className="center"
+                                node="button"
+                              >
+                                <button
+                                  className="btn center"
+                                  disabled={false}
+                                >
+                                  Sign Up
+                                </button>
+                              </Button>
+                            </div>
+                          </Col>
+                        </div>
+                      </Row>
+                    </signUpForm>
+                  </div>
+                </Col>
+              </Tab>
+            </div>
+          </Row>
+        </Tabs>
+      </div>
+    </AuthPage>
+  </Router>
+</BrowserRouter>
+`;

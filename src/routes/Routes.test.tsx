@@ -15,7 +15,7 @@ describe('The Route component', () => {
     expect(wrapper.find({ path: '/' }).length).toBe(1);
   });
 
-  it('should register a route for analytics, categories and settings', () => {
+  it('should register a route for men, women and new', () => {
     const wrapper = shallow(
       <Routes />
     );

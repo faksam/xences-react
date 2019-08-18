@@ -72,8 +72,7 @@ export class CartPage extends React.Component<any, any> {
               <hr />
               <p><b>GRAND TOTAL: 6500.00</b></p>
               </Row>
-
-              <Link className="btn" to="/checkout">GO TO CHECKOUT</Link>
+              <Link className="btn" to="/checkout">CHECKOUT</Link>
             </Card>
             </Col>
           </Row>

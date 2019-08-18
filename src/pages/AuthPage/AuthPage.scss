@@ -1,0 +1,31 @@
+.AuthPage {
+  body {
+    font-display: block;
+  }
+
+  .tabs {
+    border: 0.025rem solid #2196F3;
+
+    .indicator {
+      background-color: #2196F3;
+      color: #2196F3;
+    }
+  }
+    
+  .tab a {
+    color: rgba(47, 138, 212, 0.418);
+
+    &:hover {
+      color: #2196F3;
+    }
+
+    &:focus,
+    &:focus.active {
+      background-color: rgba(103, 167, 219, 0.418);
+    }
+
+    &.active {
+      color: #2196F3;
+    }
+  }
+}
