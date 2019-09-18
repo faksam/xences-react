@@ -26,7 +26,7 @@ exports[`The AuthPage component should be render products page 1`] = `
   >
     <AuthPage>
       <div
-        className="AuthPage"
+        className="auth-page"
       >
         <Tabs
           class="tabs"
@@ -87,10 +87,10 @@ exports[`The AuthPage component should be render products page 1`] = `
                   >
                     <SignInForm>
                       <Row
-                        className="signInForm"
+                        className="sign-in-form"
                       >
                         <div
-                          className="row signInForm"
+                          className="row sign-in-form"
                         >
                           <Col
                             s={6}
@@ -189,10 +189,10 @@ exports[`The AuthPage component should be render products page 1`] = `
                   >
                     <signUpForm>
                       <Row
-                        className="signUpForm"
+                        className="sign-up-form"
                       >
                         <div
-                          className="row signUpForm"
+                          className="row sign-up-form"
                         >
                           <Col
                             s={6}

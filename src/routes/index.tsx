@@ -6,6 +6,7 @@ import { BrowserRouter as Router, HashRouter, Link, Redirect, Route, Switch } fr
 
 // components
 import NavigationBar from '../components/NavigationBar';
+import { AccountPage } from '../pages/AccountPage';
 import { AuthPage } from '../pages/AuthPage';
 import { CartPage } from '../pages/CartPage';
 import { HomePage } from '../pages/HomePage';
@@ -26,7 +27,8 @@ const Routes = (props: any) => {
           <Route path="/top-search" component={ProductsPage} />
           <Route path="/buy" component={ProductDetailsPage} />
           <Route path="/cart" component={CartPage} />
-          <Route path="/account" component={AuthPage} />
+          <Route path="/auth" component={AuthPage} />
+          <Route path="/account" component={AccountPage} />
         </Switch>
       </div>
     </Router>

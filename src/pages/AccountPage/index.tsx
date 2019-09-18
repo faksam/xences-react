@@ -1,5 +1,6 @@
 // import libraries
 import * as React from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 
 // third-party libraries
 
@@ -7,27 +8,64 @@ import * as React from 'react';
 import './AccountPage.scss';
 
 // components
-import { Tab, Tabs } from 'react-materialize';
-import SignInForm from '../../components/SignInForm';
-import SignUpForm from '../../components/SignUpForm';
+import {
+  Button,
+  Card,
+  Col,
+  Collection,
+  CollectionItem,
+  Row,
+  TextInput
+} from 'react-materialize';
+import AccountDetails from '../../components/AccountDetails';
 
-export class AccountPage extends React.Component<any, any> {
+// interfaces
+import { AccountPageProps, AccountPageState } from './interfaces';
+
+export class AccountPage extends React.Component<AccountPageProps, AccountPageState> {
   constructor(props) {
     super(props);
   }
 
   render() {
+    const { match } = this.props;
+
     return (
       <React.Fragment>
-        <div className="AccountPage">
-          <Tabs class="tabs">
-            <Tab title="Sign In" active>
-              <SignInForm />
-            </Tab>
-            <Tab title="Sign Up">
-              <SignUpForm />
-            </Tab>
-          </Tabs>
+        <div className="account-page">
+          <Row>
+            <Col s={4}>
+              <Collection>
+                <CollectionItem><Link to={`${match.url}`}>My Account</Link></CollectionItem>
+                <CollectionItem><Link to={`${match.url}/orders`}>My Orders</Link></CollectionItem>
+                <CollectionItem><Link to={`${match.url}/shop`}>My Shop</Link></CollectionItem>
+                <CollectionItem><Link to={`${match.url}/products`}>My Products</Link></CollectionItem>
+              </Collection>
+            </Col>
+            <Col s={8}>
+              <Card>
+                <Switch>
+                  <Route
+                    exact
+                    path={`${match.url}`}
+                    component={AccountDetails}
+                  />
+                  <Route
+                    path={`${match.url}/orders`}
+                    component={AccountDetails}
+                  />
+                  <Route
+                    path={`${match.url}/shop`}
+                    component={AccountDetails}
+                  />
+                  <Route
+                    path={`${match.url}/products`}
+                    component={AccountDetails}
+                  />
+                </Switch>
+              </Card>
+            </Col>
+          </Row>
         </div>
       </React.Fragment>
     );

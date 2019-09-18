@@ -26,7 +26,7 @@ exports[`The CartPage component should be render products page 1`] = `
   >
     <CartPage>
       <div
-        className="CartPage"
+        className="cart-page"
       >
         <Row>
           <div
@@ -39,11 +39,11 @@ exports[`The CartPage component should be render products page 1`] = `
                 className="col s8"
               >
                 <Row
-                  className="productRow"
+                  className="product-row"
                   key="3"
                 >
                   <div
-                    className="row productRow"
+                    className="row product-row"
                   >
                     <Card
                       className="card"
@@ -60,11 +60,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                 className="row"
                               >
                                 <Col
-                                  className="productImgCol"
+                                  className="product-img-col"
                                   s={3}
                                 >
                                   <div
-                                    className="col s3 productImgCol"
+                                    className="col s3 product-img-col"
                                   >
                                     <img
                                       src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
@@ -87,7 +87,7 @@ exports[`The CartPage component should be render products page 1`] = `
                                           Nice coat
                                         </p>
                                         <p
-                                          className="productName"
+                                          className="product-name"
                                         >
                                           A beautiful nice coat designed by the freshest designer.
                                         </p>
@@ -101,11 +101,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                       </div>
                                     </Col>
                                     <Col
-                                      className="productCo"
+                                      className="product-detail-col"
                                       s={3}
                                     >
                                       <div
-                                        className="col s3 productCo"
+                                        className="col s3 product-detail-col"
                                       >
                                         <TextInput
                                           label="Quantity"
@@ -166,11 +166,11 @@ exports[`The CartPage component should be render products page 1`] = `
                   </div>
                 </Row>
                 <Row
-                  className="productRow"
+                  className="product-row"
                   key="2"
                 >
                   <div
-                    className="row productRow"
+                    className="row product-row"
                   >
                     <Card
                       className="card"
@@ -187,11 +187,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                 className="row"
                               >
                                 <Col
-                                  className="productImgCol"
+                                  className="product-img-col"
                                   s={3}
                                 >
                                   <div
-                                    className="col s3 productImgCol"
+                                    className="col s3 product-img-col"
                                   >
                                     <img
                                       src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
@@ -214,7 +214,7 @@ exports[`The CartPage component should be render products page 1`] = `
                                           Nice cap
                                         </p>
                                         <p
-                                          className="productName"
+                                          className="product-name"
                                         >
                                           A beautiful nice cap designed by the freshest designer.
                                         </p>
@@ -228,11 +228,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                       </div>
                                     </Col>
                                     <Col
-                                      className="productCo"
+                                      className="product-detail-col"
                                       s={3}
                                     >
                                       <div
-                                        className="col s3 productCo"
+                                        className="col s3 product-detail-col"
                                       >
                                         <TextInput
                                           label="Quantity"
@@ -293,11 +293,11 @@ exports[`The CartPage component should be render products page 1`] = `
                   </div>
                 </Row>
                 <Row
-                  className="productRow"
+                  className="product-row"
                   key="1"
                 >
                   <div
-                    className="row productRow"
+                    className="row product-row"
                   >
                     <Card
                       className="card"
@@ -314,11 +314,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                 className="row"
                               >
                                 <Col
-                                  className="productImgCol"
+                                  className="product-img-col"
                                   s={3}
                                 >
                                   <div
-                                    className="col s3 productImgCol"
+                                    className="col s3 product-img-col"
                                   >
                                     <img
                                       src="https://res.cloudinary.com/faksam-soft/image/upload/v1559209413/Man_005_shaco9.jpg"
@@ -341,7 +341,7 @@ exports[`The CartPage component should be render products page 1`] = `
                                           Nice shirt
                                         </p>
                                         <p
-                                          className="productName"
+                                          className="product-name"
                                         >
                                           A beautiful nice shirt designed by the freshest designer.
                                         </p>
@@ -355,11 +355,11 @@ exports[`The CartPage component should be render products page 1`] = `
                                       </div>
                                     </Col>
                                     <Col
-                                      className="productCo"
+                                      className="product-detail-col"
                                       s={3}
                                     >
                                       <div
-                                        className="col s3 productCo"
+                                        className="col s3 product-detail-col"
                                       >
                                         <TextInput
                                           label="Quantity"

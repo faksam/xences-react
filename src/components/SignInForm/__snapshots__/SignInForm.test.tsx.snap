@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SignInForm component Successful displays should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <SignInForm>
+      <Row
+        className="sign-in-form"
+      >
+        <div
+          className="row sign-in-form"
+        >
+          <Col
+            s={6}
+          >
+            <div
+              className="col s6"
+            >
+              <TextInput
+                className="formInput"
+                email={true}
+                label="Email"
+                validate={true}
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id="email3"
+                    type="email"
+                  />
+                  <label
+                    className=""
+                    htmlFor="email3"
+                  >
+                    Email
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <TextInput
+                className="formInput"
+                label="Password"
+                password={true}
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id="password5"
+                    type="password"
+                  />
+                  <label
+                    className=""
+                    htmlFor="password5"
+                  >
+                    Password
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <Button
+                className=""
+                node="button"
+              >
+                <button
+                  className="btn"
+                  disabled={false}
+                >
+                  Sign In
+                </button>
+              </Button>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </SignInForm>
+  </Router>
+</BrowserRouter>
+`;

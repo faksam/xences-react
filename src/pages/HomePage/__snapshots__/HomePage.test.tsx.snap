@@ -27,10 +27,10 @@ exports[`The HomePage component should be render home page 1`] = `
     <HomePage>
       <TopContent>
         <Row
-          className="TopContent"
+          className="top-content"
         >
           <div
-            className="row TopContent"
+            className="row top-content"
           >
             <Col
               s={4}
@@ -50,7 +50,7 @@ exports[`The HomePage component should be render home page 1`] = `
                     className="carousel carousel-slider"
                   >
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$1"
                     >
                       <img
@@ -71,7 +71,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$2"
                     >
                       <img
@@ -92,7 +92,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$3"
                     >
                       <img
@@ -113,7 +113,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$4"
                     >
                       <img
@@ -134,7 +134,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$5"
                     >
                       <img
@@ -155,7 +155,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$6"
                     >
                       <img
@@ -176,7 +176,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$7"
                     >
                       <img
@@ -197,7 +197,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$8"
                     >
                       <img
@@ -218,7 +218,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$9"
                     >
                       <img
@@ -239,7 +239,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$10"
                     >
                       <img
@@ -471,7 +471,7 @@ exports[`The HomePage component should be render home page 1`] = `
                     className="carousel carousel-slider"
                   >
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$1"
                     >
                       <img
@@ -492,7 +492,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$2"
                     >
                       <img
@@ -513,7 +513,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$3"
                     >
                       <img
@@ -534,7 +534,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$4"
                     >
                       <img
@@ -555,7 +555,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$5"
                     >
                       <img
@@ -576,7 +576,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$6"
                     >
                       <img
@@ -597,7 +597,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$7"
                     >
                       <img
@@ -618,7 +618,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$8"
                     >
                       <img
@@ -639,7 +639,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$9"
                     >
                       <img
@@ -660,7 +660,7 @@ exports[`The HomePage component should be render home page 1`] = `
                       </Button>
                     </div>
                     <div
-                      className="carousel-item carouselImgDiv"
+                      className="carousel-item carousel-img"
                       key=".$10"
                     >
                       <img
@@ -689,10 +689,10 @@ exports[`The HomePage component should be render home page 1`] = `
       </TopContent>
       <NewArrivals>
         <Row
-          className="NewArrivals"
+          className="new-arrivals"
         >
           <div
-            className="row NewArrivals"
+            className="row new-arrivals"
           >
             <Row>
               <div
@@ -945,10 +945,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -972,10 +972,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -1287,10 +1287,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -1314,10 +1314,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -1629,10 +1629,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -1656,10 +1656,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -1971,10 +1971,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -1998,10 +1998,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -2313,10 +2313,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -2340,10 +2340,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -2655,10 +2655,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -2682,10 +2682,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -2997,10 +2997,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -3024,10 +3024,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -3339,10 +3339,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -3366,10 +3366,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -3681,10 +3681,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -3708,10 +3708,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -4023,10 +4023,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable undefined"
@@ -4050,10 +4050,10 @@ exports[`The HomePage component should be render home page 1`] = `
                                         2000
                                       </p>
                                       <Row
-                                        className="productSize"
+                                        className="product-size"
                                       >
                                         <div
-                                          className="row productSize"
+                                          className="row product-size"
                                         >
                                           <p
                                             className="chip"
@@ -4130,10 +4130,10 @@ exports[`The HomePage component should be render home page 1`] = `
       </NewArrivals>
       <TrendingNow>
         <Row
-          className="TrendingNow"
+          className="trending-now"
         >
           <div
-            className="row TrendingNow"
+            className="row trending-now"
           >
             <Row>
               <div
@@ -4393,10 +4393,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable m"
@@ -4703,10 +4703,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable l"
@@ -5019,10 +5019,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable l"
@@ -5329,10 +5329,10 @@ exports[`The HomePage component should be render home page 1`] = `
                           }
                         >
                           <Row
-                            className="ProductCard"
+                            className="product-card"
                           >
                             <div
-                              className="row ProductCard"
+                              className="row product-card"
                             >
                               <Card
                                 className="card hoverable m"
