@@ -1,0 +1,178 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AccountDetails component Successful displays should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AccountDetails>
+      <Row>
+        <div
+          className="row"
+        >
+          <h4>
+            Account Details
+          </h4>
+          <TextInput
+            className="formInput"
+            label="Display Name"
+          >
+            <div
+              className="input-field col"
+            >
+              <input
+                className="formInput"
+                id={2}
+                type="text"
+              />
+              <label
+                className=""
+                htmlFor={2}
+              >
+                Display Name
+              </label>
+              <span
+                className="helper-text"
+              />
+            </div>
+          </TextInput>
+          <TextInput
+            className="formInput"
+            label="Phone No"
+          >
+            <div
+              className="input-field col"
+            >
+              <input
+                className="formInput"
+                id={3}
+                type="text"
+              />
+              <label
+                className=""
+                htmlFor={3}
+              >
+                Phone No
+              </label>
+              <span
+                className="helper-text"
+              />
+            </div>
+          </TextInput>
+          <TextInput
+            className="formInput"
+            label="Address"
+          >
+            <div
+              className="input-field col"
+            >
+              <input
+                className="formInput"
+                id={4}
+                type="text"
+              />
+              <label
+                className=""
+                htmlFor={4}
+              >
+                Address
+              </label>
+              <span
+                className="helper-text"
+              />
+            </div>
+          </TextInput>
+          <TextInput
+            className="formInput"
+            email={true}
+            label="Email"
+            validate={true}
+          >
+            <div
+              className="input-field col"
+            >
+              <input
+                className="formInput"
+                id="email6"
+                type="email"
+              />
+              <label
+                className=""
+                htmlFor="email6"
+              >
+                Email
+              </label>
+              <span
+                className="helper-text"
+              />
+            </div>
+          </TextInput>
+        </div>
+      </Row>
+      <Row>
+        <div
+          className="row"
+        >
+          <Col
+            s={4}
+          >
+            <div
+              className="col s4"
+            >
+              <Button
+                className="center"
+                node="button"
+              >
+                <button
+                  className="btn center"
+                  disabled={false}
+                >
+                  Update
+                </button>
+              </Button>
+            </div>
+          </Col>
+          <Col
+            s={4}
+          >
+            <div
+              className="col s4"
+            >
+              <Button
+                className="center"
+                node="button"
+              >
+                <button
+                  className="btn center"
+                  disabled={false}
+                >
+                  Change Password
+                </button>
+              </Button>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </AccountDetails>
+  </Router>
+</BrowserRouter>
+`;

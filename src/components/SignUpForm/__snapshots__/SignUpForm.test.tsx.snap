@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The SignUpForm component Successful displays should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <signUpForm>
+      <Row
+        className="sign-up-form"
+      >
+        <div
+          className="row sign-up-form"
+        >
+          <Col
+            s={6}
+          >
+            <div
+              className="col s6"
+            >
+              <TextInput
+                className="formInput"
+                label="Display Name"
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id={2}
+                    type="text"
+                  />
+                  <label
+                    className=""
+                    htmlFor={2}
+                  >
+                    Display Name
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <TextInput
+                className="formInput"
+                label="Phone No"
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id={3}
+                    type="text"
+                  />
+                  <label
+                    className=""
+                    htmlFor={3}
+                  >
+                    Phone No
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <TextInput
+                className="formInput"
+                label="Address"
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id={4}
+                    type="text"
+                  />
+                  <label
+                    className=""
+                    htmlFor={4}
+                  >
+                    Address
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+            </div>
+          </Col>
+          <Col
+            s={6}
+          >
+            <div
+              className="col s6"
+            >
+              <TextInput
+                className="formInput"
+                email={true}
+                label="Email"
+                validate={true}
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id="email6"
+                    type="email"
+                  />
+                  <label
+                    className=""
+                    htmlFor="email6"
+                  >
+                    Email
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <TextInput
+                className="formInput"
+                label="Password"
+                password={true}
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id="password8"
+                    type="password"
+                  />
+                  <label
+                    className=""
+                    htmlFor="password8"
+                  >
+                    Password
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+              <TextInput
+                className="formInput"
+                label="Confirm Password"
+                password={true}
+              >
+                <div
+                  className="input-field col"
+                >
+                  <input
+                    className="formInput"
+                    id="password10"
+                    type="password"
+                  />
+                  <label
+                    className=""
+                    htmlFor="password10"
+                  >
+                    Confirm Password
+                  </label>
+                  <span
+                    className="helper-text"
+                  />
+                </div>
+              </TextInput>
+            </div>
+          </Col>
+          <Col
+            s={6}
+          >
+            <div
+              className="col s6"
+            >
+              <Button
+                className="center"
+                node="button"
+              >
+                <button
+                  className="btn center"
+                  disabled={false}
+                >
+                  Sign Up
+                </button>
+              </Button>
+            </div>
+          </Col>
+        </div>
+      </Row>
+    </signUpForm>
+  </Router>
+</BrowserRouter>
+`;

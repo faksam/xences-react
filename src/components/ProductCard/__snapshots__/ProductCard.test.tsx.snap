@@ -261,10 +261,10 @@ exports[`The ProductCard component Successful displays should be render products
           }
         >
           <Row
-            className="ProductCard"
+            className="product-card"
           >
             <div
-              className="row ProductCard"
+              className="row product-card"
             >
               <Card
                 className="card hoverable undefined"

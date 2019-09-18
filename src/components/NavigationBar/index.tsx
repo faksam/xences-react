@@ -42,8 +42,8 @@ const NavigationBar = (props: NavigationBarProps) => {
             {
               auth ?
               categories.map(category => (
-                <Link to={`/men/${category.name.toLowerCase()}`} key={category.id} >{category.name}</Link>
-              )) : <Link to="/account">Sign In</Link>
+                <Link to="/account">Sign In</Link>
+              )) : <Link to="/auth">Sign In</Link>
             }
           </Dropdown>
         </Navbar>

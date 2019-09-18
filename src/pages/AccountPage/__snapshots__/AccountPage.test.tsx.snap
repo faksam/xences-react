@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AccountPage component should be render products page 1`] = `
+<BrowserRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+  >
+    <AccountPage
+      currentUser={
+        Object {
+          "address": "Cosmos",
+          "createdAt": "12/05/19",
+          "email": "fakunlesamuel@gmail.com",
+          "fullname": "Samuel Fakunle",
+          "id": "1",
+          "phone": "07039248533",
+          "userRole": Object {
+            "createdAt": "12/05/19",
+            "description": "Shop Admin",
+            "id": "1",
+            "name": "Admin",
+          },
+        }
+      }
+      match={
+        Object {
+          "path": "/account",
+          "url": "/account",
+        }
+      }
+    >
+      <div
+        className="account-page"
+      >
+        <Row>
+          <div
+            className="row"
+          >
+            <Col
+              s={4}
+            >
+              <div
+                className="col s4"
+              >
+                <Collection>
+                  <ul
+                    className="collection"
+                  >
+                    <CollectionItem>
+                      <li
+                        className="collection-item"
+                      >
+                        <Link
+                          to="/account"
+                        >
+                          <a
+                            href="/account"
+                            onClick={[Function]}
+                          >
+                            My Account
+                          </a>
+                        </Link>
+                      </li>
+                    </CollectionItem>
+                    <CollectionItem>
+                      <li
+                        className="collection-item"
+                      >
+                        <Link
+                          to="/account/orders"
+                        >
+                          <a
+                            href="/account/orders"
+                            onClick={[Function]}
+                          >
+                            My Orders
+                          </a>
+                        </Link>
+                      </li>
+                    </CollectionItem>
+                    <CollectionItem>
+                      <li
+                        className="collection-item"
+                      >
+                        <Link
+                          to="/account/shop"
+                        >
+                          <a
+                            href="/account/shop"
+                            onClick={[Function]}
+                          >
+                            My Shop
+                          </a>
+                        </Link>
+                      </li>
+                    </CollectionItem>
+                    <CollectionItem>
+                      <li
+                        className="collection-item"
+                      >
+                        <Link
+                          to="/account/products"
+                        >
+                          <a
+                            href="/account/products"
+                            onClick={[Function]}
+                          >
+                            My Products
+                          </a>
+                        </Link>
+                      </li>
+                    </CollectionItem>
+                  </ul>
+                </Collection>
+              </div>
+            </Col>
+            <Col
+              s={8}
+            >
+              <div
+                className="col s8"
+              >
+                <Card>
+                  <div
+                    className="card"
+                  >
+                    <div
+                      className="card-content"
+                    >
+                      <div>
+                        <Switch />
+                      </div>
+                    </div>
+                    <div
+                      className="card-reveal"
+                    >
+                      <span
+                        className="card-title"
+                      >
+                        <Icon
+                          right={true}
+                        >
+                          <i
+                            className="material-icons right"
+                          >
+                            close
+                          </i>
+                        </Icon>
+                      </span>
+                    </div>
+                  </div>
+                </Card>
+              </div>
+            </Col>
+          </div>
+        </Row>
+      </div>
+    </AccountPage>
+  </Router>
+</BrowserRouter>
+`;

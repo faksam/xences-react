@@ -1014,10 +1014,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -1321,10 +1321,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -1628,10 +1628,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -1935,10 +1935,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -2242,10 +2242,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -2549,10 +2549,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -2856,10 +2856,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -3163,10 +3163,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -3470,10 +3470,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
@@ -3777,10 +3777,10 @@ exports[`The ProductsPage component should be render products page 1`] = `
                         }
                       >
                         <Row
-                          className="ProductCard"
+                          className="product-card"
                         >
                           <div
-                            className="row ProductCard"
+                            className="row product-card"
                           >
                             <Card
                               className="card hoverable undefined"
