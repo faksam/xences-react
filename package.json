@@ -60,7 +60,7 @@
     "@types/react-dom": "^16.8.2",
     "@types/react-redux": "^7.0.8",
     "@types/react-router-dom": "^4.3.2",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "commitlint": "^7.5.2",
     "enzyme-to-json": "^3.3.5",
     "express": "^4.16.4",
